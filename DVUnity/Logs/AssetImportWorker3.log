@@ -1,0 +1,243 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'pt' Physical Memory: 16228 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+14342
+Successfully changed project path to: C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
+C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30656] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 141749958 [EditorId] 141749958 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6B1DEGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30656] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 141749958 [EditorId] 141749958 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6B1DEGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 299.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.5183
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021928 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 913 ms
+Refreshing native plugins compatible for Editor in 305.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.466 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3468ms)
+		BeginReloadAssembly (301ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2790ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (2104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1221ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (306ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (214ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022223 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro Moura\Documents\ProjetoDV\DVUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro Moura\Documents\ProjetoDV\DVUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3723ms)
+		BeginReloadAssembly (391ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2938ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (984ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (189ms)
+			SetupLoadedEditorAssemblies (1256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (68ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (339ms)
+				ProcessInitializeOnLoadAttributes (761ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3514.
+Memory consumption went from 108.2 MB to 108.1 MB.
+Total: 9.237100 ms (FindLiveObjects: 0.596000 ms CreateObjectMapping: 0.431800 ms MarkObjects: 7.936500 ms  DeleteObjects: 0.270400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 513304.631792 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_SecondAge_Level1.obj
+  artifactKey: Guid(4634ccc587cedca4e9342a6d340f9c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_SecondAge_Level1.obj using Guid(4634ccc587cedca4e9342a6d340f9c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f3a13418303bbf878175ce10ff0b6b') in 0.637871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530412 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WonderWalls_SecondAge.obj
+  artifactKey: Guid(72a2401271462f24089b356318071b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WonderWalls_SecondAge.obj using Guid(72a2401271462f24089b356318071b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5756df446938b928c06c4df93fc131') in 0.110530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.646048 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level3_Wheat.obj
+  artifactKey: Guid(8acea40a84dd6ae4fa3ceaf2c7b164ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level3_Wheat.obj using Guid(8acea40a84dd6ae4fa3ceaf2c7b164ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ee89cfa2897f42dd2482ce63f4b0ab') in 0.092118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_1_Level3.obj
+  artifactKey: Guid(ad6b8202921860c499243d715d91b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_1_Level3.obj using Guid(ad6b8202921860c499243d715d91b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a23e665428206cec3c2fee9b6b6cc9') in 0.090343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_1_Level1.obj
+  artifactKey: Guid(17678264fb5cc2e43b7f7873ca3b2f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_1_Level1.obj using Guid(17678264fb5cc2e43b7f7873ca3b2f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8785fb7e48f3101ea40505767cdf8dba') in 0.099996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095838 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level1_Wheat.obj
+  artifactKey: Guid(e346e9dac9d9a0b4e813d8aaea02fdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level1_Wheat.obj using Guid(e346e9dac9d9a0b4e813d8aaea02fdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e5c8648ea9fa10e21dd459a6734adc') in 0.087792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level2_Wheat.obj
+  artifactKey: Guid(3e01280597458c24eba320c5a42fa04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level2_Wheat.obj using Guid(3e01280597458c24eba320c5a42fa04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe9f05950b635664b8e2a337376debd') in 0.076824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level3_Wheat.obj
+  artifactKey: Guid(a91ba83025625c14d931cf430ca1e6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level3_Wheat.obj using Guid(a91ba83025625c14d931cf430ca1e6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfe2e8a2ded8adfe660e0fa8f2fbe74') in 0.091741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level2_Wheat.obj
+  artifactKey: Guid(bb865644ce6f1864880c20970bf45310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level2_Wheat.obj using Guid(bb865644ce6f1864880c20970bf45310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3055f8ad5ac7c7b59b924d3f3a3c9e8d') in 0.080080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level1_Wheat.obj
+  artifactKey: Guid(328457b6c0f270b4ca78e30df86650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level1_Wheat.obj using Guid(328457b6c0f270b4ca78e30df86650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1ee6536ab5cd4d305e21b094d922dd') in 0.090133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.051590 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_Dirt_Level2.obj
+  artifactKey: Guid(2b49f33b65d7f544a94a2404c2cd47ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_Dirt_Level2.obj using Guid(2b49f33b65d7f544a94a2404c2cd47ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7886063b8c6b3c8e57fb4497d0fe0eb5') in 0.089368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level1.obj
+  artifactKey: Guid(9be5302718b9e9d40832a28903814e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level1.obj using Guid(9be5302718b9e9d40832a28903814e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd834caa97074f42bd0b3debed90d5280') in 0.077425 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
