@@ -15,7 +15,7 @@ C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-14342
+21372
 Successfully changed project path to: C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
 C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [67984] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2322819746 [EditorId] 2322819746 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6B1DEGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [38288] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 559588146 [EditorId] 559588146 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6B1DEGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [67984] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2322819746 [EditorId] 2322819746 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6B1DEGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38288] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 559588146 [EditorId] 559588146 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6B1DEGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 335.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 407.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018510 seconds.
+Registered in 0.033862 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1026 ms
-Refreshing native plugins compatible for Editor in 387.38 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 1901 ms
+Refreshing native plugins compatible for Editor in 479.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.851 seconds
+- Completed reload, in  6.317 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3853ms)
-		BeginReloadAssembly (341ms)
+	ReloadAssembly (6320ms)
+		BeginReloadAssembly (522ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (3117ms)
-			LoadAssemblies (335ms)
+		EndReloadAssembly (5160ms)
+			LoadAssemblies (511ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (442ms)
+			SetupTypeCache (736ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (127ms)
-			SetupLoadedEditorAssemblies (2339ms)
+			RebuildScriptCaches (282ms)
+			SetupLoadedEditorAssemblies (3687ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1400ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (388ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (361ms)
-				ProcessInitializeOnLoadMethodAttributes (184ms)
+				InitializePlatformSupportModulesInManaged (2378ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (480ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (578ms)
+				ProcessInitializeOnLoadMethodAttributes (242ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018497 seconds.
+Registered in 0.023392 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro Moura\Documents\ProjetoDV\DVUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Pedro Moura\Documents\ProjetoDV\DVUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.264 seconds
+- Completed reload, in  4.317 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4269ms)
-		BeginReloadAssembly (567ms)
+	ReloadAssembly (4321ms)
+		BeginReloadAssembly (460ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
+			DisableScriptedObjects (22ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (3255ms)
-			LoadAssemblies (443ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (3471ms)
+			LoadAssemblies (328ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1087ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (183ms)
-			SetupLoadedEditorAssemblies (1452ms)
+			SetupTypeCache (1125ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (208ms)
+			SetupLoadedEditorAssemblies (1613ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (74ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (363ms)
-				ProcessInitializeOnLoadAttributes (886ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
-				AfterProcessingInitializeOnLoad (31ms)
+				BeforeProcessingInitializeOnLoad (380ms)
+				ProcessInitializeOnLoadAttributes (1043ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (28ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3050 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3514.
-Memory consumption went from 108.2 MB to 108.1 MB.
-Total: 12.017700 ms (FindLiveObjects: 1.413700 ms CreateObjectMapping: 0.902200 ms MarkObjects: 9.336000 ms  DeleteObjects: 0.362600 ms)
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3535.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 9.392200 ms (FindLiveObjects: 0.712100 ms CreateObjectMapping: 0.704500 ms MarkObjects: 7.674500 ms  DeleteObjects: 0.297800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,457 +167,29 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 512810.735683 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_SecondAge_1_Level3.fbx
-  artifactKey: Guid(d33a4df2f1975f94ba16f2d3c1804f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_SecondAge_1_Level3.fbx using Guid(d33a4df2f1975f94ba16f2d3c1804f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afa730865b048d615c28172ccc91704') in 0.735057 seconds 
+  Time since last request: 590002.716019 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Cabbage_01.prefab
+  artifactKey: Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Cabbage_01.prefab using Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997e2953b6437192f19f046edd620a5') in 0.500890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Storage_SecondAge_Level1.fbx
-  artifactKey: Guid(b9a5f19a0c7cd0040a3fd87611a8fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Storage_SecondAge_Level1.fbx using Guid(b9a5f19a0c7cd0040a3fd87611a8fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6caa0d614ded511d70a2cac9941f442') in 0.175840 seconds 
+  Time since last request: 0.000056 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Rock_04.prefab
+  artifactKey: Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Rock_04.prefab using Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8f8ea9d56a5e89d50da90c95867a3a') in 0.055180 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000089 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_PineTree.fbx
-  artifactKey: Guid(4f1b4c588c887d04ebe31e439fe97b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_PineTree.fbx using Guid(4f1b4c588c887d04ebe31e439fe97b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6154837dea48bcbbdac6489911d7bd') in 0.088584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Farm_SecondAge_Level2.fbx
-  artifactKey: Guid(0398648fc8c00b344ae52530830ba131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Farm_SecondAge_Level2.fbx using Guid(0398648fc8c00b344ae52530830ba131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1234daa126a5061ef46f0b90f0edf1c') in 0.151416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Windmill_FirstAge.fbx
-  artifactKey: Guid(366d5a983231f6d4499b4456b64db143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Windmill_FirstAge.fbx using Guid(366d5a983231f6d4499b4456b64db143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0f1d1c574f4c9343c11cf168c8f7b6') in 0.125044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Rock_3.fbx
-  artifactKey: Guid(6aad5838f6cd4ba488524878241883b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Rock_3.fbx using Guid(6aad5838f6cd4ba488524878241883b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb404871dd6f891854b353ab373c40c') in 0.081404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Gold_2.fbx
-  artifactKey: Guid(3eff5ee816b411e46b2a4d221f83c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Gold_2.fbx using Guid(3eff5ee816b411e46b2a4d221f83c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b703b494d1d917ba7ec0e3c1181524') in 0.081501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Barracks_SecondAge_Level3.fbx
-  artifactKey: Guid(f00a6088a702ab04e928a0e26354ce79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Barracks_SecondAge_Level3.fbx using Guid(f00a6088a702ab04e928a0e26354ce79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e1fa5cc0c715259e8d2b42db142423') in 0.179770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets
-  artifactKey: Guid(04241f7dd7635c74ca2715740dbb4b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(04241f7dd7635c74ca2715740dbb4b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea16d879c05c8ed9c01ee7f3073bb797') in 0.027402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Farm_SecondAge_Level1.fbx
-  artifactKey: Guid(24ac3e784c513b74bae8563bec70bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Farm_SecondAge_Level1.fbx using Guid(24ac3e784c513b74bae8563bec70bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b21784a4d2a03f1ca7aae1b3d048f22') in 0.172899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_FirstAge_1_Level1.fbx
-  artifactKey: Guid(9f6d962642fd3584f9e5d287dcbb6f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_FirstAge_1_Level1.fbx using Guid(9f6d962642fd3584f9e5d287dcbb6f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a68ae18212c7fe836fa9be03919065d') in 0.098028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Rock_1.fbx
-  artifactKey: Guid(0bc9ee0cfe37903458299a0c88f71da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Rock_1.fbx using Guid(0bc9ee0cfe37903458299a0c88f71da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc82f61c6ae0dc0df8318abf4ad41b22') in 0.083318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Port_FirstAge_Level2.fbx
-  artifactKey: Guid(2570792e754bc2947acb032fc00a1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Port_FirstAge_Level2.fbx using Guid(2570792e754bc2947acb032fc00a1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768f2c25dc7578f4adaa506144084ca4') in 0.113009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Crate_Stack2.fbx
-  artifactKey: Guid(492d13c455d8b1e489904abacbf4936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Crate_Stack2.fbx using Guid(492d13c455d8b1e489904abacbf4936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83e2ee195e2ced2785c7c76abdc08ce') in 0.086031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/WallTowers_DoorClosed_FirstAge.fbx
-  artifactKey: Guid(fe2ae672a57d8d9448f83e463e997988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/WallTowers_DoorClosed_FirstAge.fbx using Guid(fe2ae672a57d8d9448f83e463e997988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce4432a44cb5ce1daecca865a436a24') in 0.086736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Crate_Big_Stack2.fbx
-  artifactKey: Guid(1c963ae53f4fc3d49b05c3507329d43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Crate_Big_Stack2.fbx using Guid(1c963ae53f4fc3d49b05c3507329d43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22676bbd4d70f86ba7485a0091799668') in 0.092791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_FirstAge_Level2.fbx
-  artifactKey: Guid(a1542c31727969d469661de941f056cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_FirstAge_Level2.fbx using Guid(a1542c31727969d469661de941f056cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15c3b061708759bee9420d82689b29c') in 0.119333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_SecondAge_3_Level1.fbx
-  artifactKey: Guid(176adc7aaebc28d47855f92b052aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_SecondAge_3_Level1.fbx using Guid(176adc7aaebc28d47855f92b052aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3883360f3e782ae7e2966698d22fec6d') in 0.148663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/TowerHouse_SecondAge.fbx
-  artifactKey: Guid(22169384bdd78e54f92fde7158ba1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/TowerHouse_SecondAge.fbx using Guid(22169384bdd78e54f92fde7158ba1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260b65a8fccd5d3630e49aea7ba0a10f') in 0.143908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_SecondAge_Level3.fbx
-  artifactKey: Guid(2382e94becbb7bb419ea12e0b3e269fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_SecondAge_Level3.fbx using Guid(2382e94becbb7bb419ea12e0b3e269fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3756aede07fa7b6de074acf1c98e4e') in 0.101711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Storage_FirstAge_Level2.fbx
-  artifactKey: Guid(6499f429b2e125e45b628c050d85e8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Storage_FirstAge_Level2.fbx using Guid(6499f429b2e125e45b628c050d85e8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f054e10cda21c3786c23184cc308b66f') in 0.097437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Farm_FirstAge_Level2.fbx
-  artifactKey: Guid(17edbf8d453b19e439396fd720aee5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Farm_FirstAge_Level2.fbx using Guid(17edbf8d453b19e439396fd720aee5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee75d61583d8901ff499683f76d4e81b') in 0.074272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_FirstAge_2_Level3.fbx
-  artifactKey: Guid(66d07e336c764d64f816563bc411b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Houses_FirstAge_2_Level3.fbx using Guid(66d07e336c764d64f816563bc411b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a8a5194b0d6e78ac84f30ae7dfc03d') in 0.094576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Gold_1.fbx
-  artifactKey: Guid(fd4f13e5828b9ff46853c5c3f8c41501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Resource_Gold_1.fbx using Guid(fd4f13e5828b9ff46853c5c3f8c41501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54332a8b3cfbded6a1ca9e9b35ed8334') in 0.085584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/MountainLarge_Single.fbx
-  artifactKey: Guid(9a71e34b4248dff4d9bfc9d396b49c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/MountainLarge_Single.fbx using Guid(9a71e34b4248dff4d9bfc9d396b49c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8051b799f16e062aed8865fe6d3872') in 0.098687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Wall_FirstAge.fbx
-  artifactKey: Guid(9f5dace5b192e0d4b85fdced823894e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Wall_FirstAge.fbx using Guid(9f5dace5b192e0d4b85fdced823894e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747669fce3f8e10e1f0d7a3f1b947a17') in 0.084188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Wonder_FirstAge_Level3.fbx
-  artifactKey: Guid(436c41c0bd955004e87525335f055ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Wonder_FirstAge_Level3.fbx using Guid(436c41c0bd955004e87525335f055ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9229ac3680c49d62efa4603505e81e18') in 0.123172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_SecondAge_Level1.fbx
-  artifactKey: Guid(0cca97a944c78f34ab717f7867fa282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_SecondAge_Level1.fbx using Guid(0cca97a944c78f34ab717f7867fa282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aac3669e75dc52d43528eaab4f7ee5c') in 0.115706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Barrel.fbx
-  artifactKey: Guid(f04153133165dee4da61041ad92e510e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Barrel.fbx using Guid(f04153133165dee4da61041ad92e510e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68619c3f049059805af49ed812247549') in 0.089073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_SecondAge_Level2.fbx
-  artifactKey: Guid(082c1325733f93a4e8daf7a394f00c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_SecondAge_Level2.fbx using Guid(082c1325733f93a4e8daf7a394f00c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f2de47a374b6c4c1096cfd7552ec30') in 0.101127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Wonder_SecondAge_Level1.fbx
-  artifactKey: Guid(d179e3f9525dbfe4dab3834390010dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Wonder_SecondAge_Level1.fbx using Guid(d179e3f9525dbfe4dab3834390010dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22a248ee4f87702d2fb48d23f6c4ddb') in 0.111674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_FirstAge_Level1.fbx
-  artifactKey: Guid(7cd07d7e894f69e4eae0c9910bb8fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/Temple_FirstAge_Level1.fbx using Guid(7cd07d7e894f69e4eae0c9910bb8fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905d62bcdfa319a279ffda7b2f1c3a49') in 0.102767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/WatchTower_FirstAge_Level1.fbx
-  artifactKey: Guid(31954d96dbbb9204ebc5f32be16fcf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/FBX/WatchTower_FirstAge_Level1.fbx using Guid(31954d96dbbb9204ebc5f32be16fcf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0d7323ac49751933c43e4a579c8b0b') in 0.097715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.169775 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_2_Level1.obj
-  artifactKey: Guid(59a5d974e62225544bfb470d6cd65920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_2_Level1.obj using Guid(59a5d974e62225544bfb470d6cd65920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31d3a9679b455877033939495825958') in 0.084160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_3_Level3.obj
-  artifactKey: Guid(e2ed62ccf29ae064dac894493dd5a571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_3_Level3.obj using Guid(e2ed62ccf29ae064dac894493dd5a571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c1b2022c8b809d42e66b96a36ed8b') in 0.183073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_3_Level2.obj
-  artifactKey: Guid(03518298778dc554ea2fa1918f64c8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_3_Level2.obj using Guid(03518298778dc554ea2fa1918f64c8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9362454198dfd0d2a26d1fb7069d62') in 0.093538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Mine.obj
-  artifactKey: Guid(1a0db0549bd956f41935edd8e3ecd8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Mine.obj using Guid(1a0db0549bd956f41935edd8e3ecd8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f98df2c2d47751d642621bc2ead898') in 0.129322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_3_Level1.obj
-  artifactKey: Guid(76b7ae4e20c2555459eb219a793b585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_3_Level1.obj using Guid(76b7ae4e20c2555459eb219a793b585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f87c6db9fb5b5d36636576ec13495d') in 0.087344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Market_FirstAge_Level3.obj
-  artifactKey: Guid(d367fd366d61ee8429ab4ed5707cb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Market_FirstAge_Level3.obj using Guid(d367fd366d61ee8429ab4ed5707cb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8167e89cd59e860d850016ea527b1a59') in 0.165160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Market_SecondAge_Level1.obj
-  artifactKey: Guid(9e8bc920d1671be45802db5dddfc2c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Market_SecondAge_Level1.obj using Guid(9e8bc920d1671be45802db5dddfc2c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f728a0f61e4f68f0cd8c74568767333') in 0.169190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_SecondAge_2_Level2.obj
-  artifactKey: Guid(c6339589910b2984bb46afa55acea24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_SecondAge_2_Level2.obj using Guid(c6339589910b2984bb46afa55acea24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c51e568a3dc75d7f109a6416f24a01') in 0.124405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.463989 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Mountain_Group_2.obj
-  artifactKey: Guid(7e9af42b9e6e02e4d883486f8913a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Mountain_Group_2.obj using Guid(7e9af42b9e6e02e4d883486f8913a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9355015fbf08fdb330da9eb106734c4a') in 0.131345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Port_FirstAge_Level3.obj
-  artifactKey: Guid(5c66afa6c40059143b1a9318883ca5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Port_FirstAge_Level3.obj using Guid(5c66afa6c40059143b1a9318883ca5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed8f6cf54601ea8bd4be24e1600b9e6') in 0.121442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.145730 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Port_SecondAge_Level1.obj
-  artifactKey: Guid(c5c7f31d0aca0b649aca3e1fc7b1fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Port_SecondAge_Level1.obj using Guid(c5c7f31d0aca0b649aca3e1fc7b1fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4513851a9436fafa885592fc2ff02e5d') in 0.158050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_Gold_2.obj
-  artifactKey: Guid(a47c5e9abea08a845840466a4f7a7153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_Gold_2.obj using Guid(a47c5e9abea08a845840466a4f7a7153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf59ccd93ab0d34190fee27be11dc18') in 0.112162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.355950 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_PineTree.obj
-  artifactKey: Guid(0c4d211513881484bbe34594553657cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_PineTree.obj using Guid(0c4d211513881484bbe34594553657cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba26c75fd5854b6ae5d04833b74f111') in 0.083112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_Rock_3.obj
-  artifactKey: Guid(2e59ef938e748cb488c8b360f2b253cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_Rock_3.obj using Guid(2e59ef938e748cb488c8b360f2b253cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24223c4483d802a27cfa20d84c71db0') in 0.082529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.394656 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_Tree1.obj
-  artifactKey: Guid(cb3b582565300bb4cb43134f65756fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Resource_Tree1.obj using Guid(cb3b582565300bb4cb43134f65756fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3841cde0f9602780ed234e6b8f59ff5f') in 0.098567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Rock.obj
-  artifactKey: Guid(afb4396f61162c4449e7a41beb89a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Rock.obj using Guid(afb4396f61162c4449e7a41beb89a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077df6bf33380230abb3ae34d2380042') in 0.106457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.164904 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Storage_FirstAge_Leve3.obj
-  artifactKey: Guid(1644a855631da754ab7373ab4bd00950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Storage_FirstAge_Leve3.obj using Guid(1644a855631da754ab7373ab4bd00950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3f94748548cf3fdaa18466fcccbb76') in 0.094685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Storage_SecondAge_Level3.obj
-  artifactKey: Guid(c30c286f1de740d468ef832c13861ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Storage_SecondAge_Level3.obj using Guid(c30c286f1de740d468ef832c13861ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03caee9e2c209c80a92f79044b7605') in 0.151666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.698093 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Temple_FirstAge_Level1.obj
-  artifactKey: Guid(0a4378c1e3a952f419c1470c207d7b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Temple_FirstAge_Level1.obj using Guid(0a4378c1e3a952f419c1470c207d7b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1bac9c256ce71ccc5180bab0489bfb') in 0.123682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Temple_SecondAge_Level2.obj
-  artifactKey: Guid(51ad540a73e511a47a1032af1cf2f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Temple_SecondAge_Level2.obj using Guid(51ad540a73e511a47a1032af1cf2f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa066ebd76cae676140af8607c846d7') in 0.109056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.340650 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/TowerHouse_FirstAge.obj
-  artifactKey: Guid(2bba456976fab924a98a3109192610c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/TowerHouse_FirstAge.obj using Guid(2bba456976fab924a98a3109192610c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4618fad40ce6bc9a484c040657308a23') in 0.109221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/TownCenter_FirstAge_Level3.obj
-  artifactKey: Guid(e77528073cd6fb14eb5a478c59042b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/TownCenter_FirstAge_Level3.obj using Guid(e77528073cd6fb14eb5a478c59042b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c0ed13ee69ee10c67918fee182ab88') in 0.115809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.297703 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/TownCenter_SecondAge_Level2.obj
-  artifactKey: Guid(62e035c37d38f224bbedc92ab680d6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/TownCenter_SecondAge_Level2.obj using Guid(62e035c37d38f224bbedc92ab680d6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326f6c6de3bc38da3d9b3a51d54429f4') in 0.100503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WallTowers_Door_FirstAge.obj
-  artifactKey: Guid(2bfa38e71344b494bbfdfd356e91cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WallTowers_Door_FirstAge.obj using Guid(2bfa38e71344b494bbfdfd356e91cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9bdcd14bcbb3530b05b0635506d526') in 0.090520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WallTowers_FirstAge.obj
-  artifactKey: Guid(ed6894a308fae2a4899463ddd1a60732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WallTowers_FirstAge.obj using Guid(ed6894a308fae2a4899463ddd1a60732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b1affedbfa7984d61533b065f04757') in 0.103463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WallTowers_DoorClosed_SecondAge.obj
-  artifactKey: Guid(782c9c6a5036b2b429bfc2ba28a6e729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WallTowers_DoorClosed_SecondAge.obj using Guid(782c9c6a5036b2b429bfc2ba28a6e729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2112de2891572d965d0f4b9659aa54') in 0.140314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 106.606229 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WatchTower_FirstAge_Level3.obj
-  artifactKey: Guid(c3981cbb44a40854083df8edf22d5271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WatchTower_FirstAge_Level3.obj using Guid(c3981cbb44a40854083df8edf22d5271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924ecab617a279fb45f54cedca17fd87') in 0.097102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WatchTower_SecondAge_Level2.obj
-  artifactKey: Guid(ffa7c3761000bcb4e8df0d72ecf725fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WatchTower_SecondAge_Level2.obj using Guid(ffa7c3761000bcb4e8df0d72ecf725fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ec331a54dbb60390151155142f1144') in 0.116490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_FirstAge_Level1.obj
-  artifactKey: Guid(27adf97fcdd01a24d87649a0d0690990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_FirstAge_Level1.obj using Guid(27adf97fcdd01a24d87649a0d0690990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffcf9c4c4ca0cc1258bb72130f34025') in 0.098860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_FirstAge_Level2.obj
-  artifactKey: Guid(e248a77d4c9932243a54eda2fc536775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_FirstAge_Level2.obj using Guid(e248a77d4c9932243a54eda2fc536775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5002df61e1d3a332c221b0af6d9b717') in 0.107847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Windmill_FirstAge.obj
-  artifactKey: Guid(03dff28eddd19724ebfa75d7dad21347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Windmill_FirstAge.obj using Guid(03dff28eddd19724ebfa75d7dad21347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479eab9819001957162afef95c40b82') in 0.119208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 374.444820 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_FirstAge_Level3.obj
-  artifactKey: Guid(3db68d15898bd1944b0e22e376a1ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_FirstAge_Level3.obj using Guid(3db68d15898bd1944b0e22e376a1ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbafc35c26885fee5c5ae149932b5bf') in 0.107396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_SecondAge_Level2.obj
-  artifactKey: Guid(92aad255da49ca54480232a234c3c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_SecondAge_Level2.obj using Guid(92aad255da49ca54480232a234c3c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5c9f3265a141896d2036ec53aa42d8') in 0.142037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_SecondAge_Level3.obj
-  artifactKey: Guid(0aa02b48bb5b2c445b290ec6d405b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Wonder_SecondAge_Level3.obj using Guid(0aa02b48bb5b2c445b290ec6d405b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284f4888e7c013e365bb3e7d0666133d') in 0.115907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.774242 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WonderWalls_FirstAge.obj
-  artifactKey: Guid(b4a33e8cb5641414b95c76f61f3f0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/WonderWalls_FirstAge.obj using Guid(b4a33e8cb5641414b95c76f61f3f0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828f05fb9e16dc86cb01c4c0302babe5') in 0.113020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 193.643111 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level3.obj
-  artifactKey: Guid(c4e22c7c07e96994f997d18b13b3f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level3.obj using Guid(c4e22c7c07e96994f997d18b13b3f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1695ae927fe35a5275604ff8ea13a0e5') in 0.171994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_1_Level2.obj
-  artifactKey: Guid(15ce189f4085a6e40a5b303838174b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Houses_FirstAge_1_Level2.obj using Guid(15ce189f4085a6e40a5b303838174b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c86746066b41379036c0f4fde53c05') in 0.093518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.127054 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level1.obj
-  artifactKey: Guid(77e2aa71c8957bf49bbe7e8e8aca716e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level1.obj using Guid(77e2aa71c8957bf49bbe7e8e8aca716e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a639c5a6fa21faa34f98655e5bd4159') in 0.151894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level3.obj
-  artifactKey: Guid(f2e2467e4678de84498b8032528014da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level3.obj using Guid(f2e2467e4678de84498b8032528014da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f613cd334040239dcd3fbf2b4b4d10') in 0.085212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level2.obj
-  artifactKey: Guid(2b71bedb2c895b7418b6ded601aee5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_FirstAge_Level2.obj using Guid(2b71bedb2c895b7418b6ded601aee5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46720dd91596a1aa3ac8040bb54fa8e7') in 0.083931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level2.obj
-  artifactKey: Guid(e497b6d482e335d40a14206595b37d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_SecondAge_Level2.obj using Guid(e497b6d482e335d40a14206595b37d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d427e01fca3f139dc80a68d98915de') in 0.177600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.991908 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_Dirt_Level1.obj
-  artifactKey: Guid(15a20c96ea771844da265c041b6e8daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_Dirt_Level1.obj using Guid(15a20c96ea771844da265c041b6e8daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d6c385fdc617940c78f5ca085cbf1c') in 0.070018 seconds 
+  path: Assets/LowPolyFarmLite/Prefabs/Mud_01.prefab
+  artifactKey: Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Mud_01.prefab using Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31c8d265766c2b349368c12b5cd3368') in 0.051480 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000060 seconds.
-  path: Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_Dirt_Level3.obj
-  artifactKey: Guid(6384f970485cd7d4995119969fc02dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Ultimate Fantasy RTS - Aug 2022/OBJ/Farm_Dirt_Level3.obj using Guid(6384f970485cd7d4995119969fc02dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d61b5a2b254b7c2c3cdd30282a62974') in 0.192636 seconds 
+  path: Assets/LowPolyFarmLite/Prefabs/Tomato_03.prefab
+  artifactKey: Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Tomato_03.prefab using Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04433c8f7a5bc34eaf53939e8b9e0df') in 0.047410 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
