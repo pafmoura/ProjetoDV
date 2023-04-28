@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/Village Level1.unity
+- path: Assets/Scenes/NiveisCampanha/Nivel1.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/2DLevelMenuUI.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0
