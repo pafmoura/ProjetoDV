@@ -15,7 +15,7 @@ C:/Escola/Projeto-Dv/ProjetoDV/DVUnity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64411
+55797
 Successfully changed project path to: C:/Escola/Projeto-Dv/ProjetoDV/DVUnity
 C:/Escola/Projeto-Dv/ProjetoDV/DVUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Escola/Projeto-Dv/ProjetoDV/DVUnity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23784] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3049448163 [EditorId] 3049448163 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OA1C7PGJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27848] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4064451359 [EditorId] 4064451359 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OA1C7PGJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23784] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3049448163 [EditorId] 3049448163 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OA1C7PGJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27848] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4064451359 [EditorId] 4064451359 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OA1C7PGJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 212.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2082.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,159 +67,13 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022430 seconds.
+Registered in 0.020982 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 231.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1008.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.980 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1983ms)
-		BeginReloadAssembly (327ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1383ms)
-			LoadAssemblies (329ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (641ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (232ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (253ms)
-				ProcessInitializeOnLoadMethodAttributes (133ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.024828 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Escola\Projeto-Dv\ProjetoDV\DVUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Escola\Projeto-Dv\ProjetoDV\DVUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.885 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2886ms)
-		BeginReloadAssembly (459ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2189ms)
-			LoadAssemblies (380ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (577ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (124ms)
-			SetupLoadedEditorAssemblies (1122ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (311ms)
-				ProcessInitializeOnLoadAttributes (750ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (114.7 KB). Loaded Objects now: 3552.
-Memory consumption went from 126.5 MB to 126.4 MB.
-Total: 5.574800 ms (FindLiveObjects: 0.569700 ms CreateObjectMapping: 0.382500 ms MarkObjects: 4.433300 ms  DeleteObjects: 0.187700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 255095.306550 seconds.
-  path: Assets/Message window (1).png
-  artifactKey: Guid(5e61bf35381536f42b577fa38ae9eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Message window (1).png using Guid(5e61bf35381536f42b577fa38ae9eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801e44587d3b0dcbaca17bc38d82ef23') in 0.370730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1027.679564 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Background/mountain2.png
-  artifactKey: Guid(f395873359a7f4f459fc6700331bef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Background/mountain2.png using Guid(f395873359a7f4f459fc6700331bef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23327f4f1de0916867dd6517674361e') in 0.113724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Background/pine1.png
-  artifactKey: Guid(d2da95292f7bbc14e8c21f8d9e0d7c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Background/pine1.png using Guid(d2da95292f7bbc14e8c21f8d9e0d7c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79194af396b43884230fdbe8b945aa7') in 0.045273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Background/sky_cloud.png
-  artifactKey: Guid(a4effd8c3d671d646b47f2938cbc2102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Background/sky_cloud.png using Guid(a4effd8c3d671d646b47f2938cbc2102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335e9ffd74076bb975f50b164565b5fe') in 0.060485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.944571 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_2.png
-  artifactKey: Guid(85b6feaad4f2a4845bb449f65e9bf61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_2.png using Guid(85b6feaad4f2a4845bb449f65e9bf61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708b9cba936550a0e838b591d27a530c') in 0.039073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_9.png
-  artifactKey: Guid(a2840a06728ea0c47b44835e4a4aeb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_9.png using Guid(a2840a06728ea0c47b44835e4a4aeb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc743f0b49d451920cb155f844f92a9') in 0.098990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_3.png
-  artifactKey: Guid(06fe6d2377634cc44903e1056b2e060c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_3.png using Guid(06fe6d2377634cc44903e1056b2e060c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7b16be0e02537d9fe1a4183fae53fb') in 0.032604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_10.png
-  artifactKey: Guid(ba7debdb6a582b446a5d7a5032ee8853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_10.png using Guid(ba7debdb6a582b446a5d7a5032ee8853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2465c910d4b74ee953ce142f19aae0d') in 0.084780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_4.png
-  artifactKey: Guid(4acb5c28cccabe94cae82d049da0503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/floresta2d/forest_tileset_lite/Sprites/Tile/Ground/ground_4.png using Guid(4acb5c28cccabe94cae82d049da0503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7266b41002697b6785da6dea9bb9c6cb') in 0.082494 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

@@ -358,7 +358,8 @@
 "Assets/Scripts/character/CatchLevels/Resources.cs"
 "Assets/Scripts/character/Movement.cs"
 "Assets/Scripts/Enemys/EnemysLife.cs"
-"Assets/Scripts/Enemys/skeleton/Level1/Enemyskeleton.cs"
+"Assets/Scripts/Enemys/skeleton/Level1/Enemy.cs"
+"Assets/Scripts/Enemys/skeleton/Level1/MovementSkeleton.cs"
 -langversion:9.0
 
 /deterministic
