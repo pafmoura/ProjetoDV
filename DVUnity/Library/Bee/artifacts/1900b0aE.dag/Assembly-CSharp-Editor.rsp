@@ -363,6 +363,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Assets/Water/Scripts/Editor/GeneratePlane.cs"
+"Assets/Nicrom/PolyPacks/Wind/Assets/Scripts/Editor/LPVegetation_MaterialInspector.cs"
 -langversion:9.0
 
 /deterministic
