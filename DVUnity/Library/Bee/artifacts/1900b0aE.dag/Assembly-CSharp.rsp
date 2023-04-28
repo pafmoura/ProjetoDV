@@ -350,6 +350,7 @@
 "Assets/ArrowAnimation.cs"
 "Assets/Assets/Water/Scripts/LowPolyWater.cs"
 "Assets/BoatMovement.cs"
+"Assets/EnableCanvasOnClick.cs"
 "Assets/LookAtCamera.cs"
 -langversion:9.0
 
