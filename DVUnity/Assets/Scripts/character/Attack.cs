@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public int damageAmount = 10;
-    public float attackRadius = 1.5f;
+    public float attackRadius = 2f;
+    public int attackDamage = 20;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            // Encontrar todos os inimigos dentro do raio
-            Collider[] colliders = Physics.OverlapSphere(transform.position, attackRadius);
+    void Update () {
+        if (Input.GetKeyDown(KeyCode.K)) {
+            AttackEnemy();
+        }
+    }
 
-            // Loop através de todos os inimigos encontrados e aplicar dano
-            foreach (Collider collider in colliders)
-            {
-                Enemy enemy = collider.GetComponent<Enemy>();
-                if (enemy != null)
-                {
-                    enemy.TakeDamage(damageAmount);
-                }
+    void AttackEnemy() {
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, attackRadius);
+        foreach(Collider2D hitCollider in hitColliders) {
+            if (hitCollider.gameObject.tag == "Enemy") {
+                Enemy enemy = hitCollider.gameObject.GetComponent<Enemy>();
+                enemy.TakeDamage(attackDamage);
             }
         }
     }

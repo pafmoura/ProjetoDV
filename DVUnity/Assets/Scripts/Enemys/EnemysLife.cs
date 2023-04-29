@@ -5,13 +5,13 @@ using UnityEngine;
 public class EnemysLife : ScriptableObject
 {
 
-    [SerializeField] private int life = 3;
+    [SerializeField] private int maxHealth = 3;
     [SerializeField] private int damage = 1;
 
 //get life and damge
-    public int getLife()
+    public int getMaxHealth()
     {
-        return life;
+        return maxHealth;
     }
     public int getDamage()
     {
