@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba0fc616460038d45a289b2bda5db6b8, type: 3}
   m_Name: EnemysLifeskeleton
   m_EditorClassIdentifier: 
-  life: 50
+  maxHealth: 100
   damage: 10
