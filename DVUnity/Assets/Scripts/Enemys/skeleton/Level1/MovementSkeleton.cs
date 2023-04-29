@@ -24,18 +24,12 @@ void Update()
 {
 
     if(!isPlayerNeer){
+        
+
         // move o personagem
         transform.Translate(new Vector2(speed * direction * Time.deltaTime, 0));
 
-        // verifica se o personagem atingiu a distância máxima
-        if (Mathf.Abs(transform.position.x - startingX) > distance)
-        {
-            // muda a direção do movimento
-            direction *= -1f;
-
-            // inverte a imagem horizontalmente ao mudar de direção
-            spriteRenderer.flipX = !spriteRenderer.flipX;
-        }
+       
     }
 }
 
@@ -50,9 +44,12 @@ void Update()
 
 void OnTriggerEnter2D(Collider2D other)
 {
+
     // verifica se o personagem colidiu com um objeto com a tag "ground"
     if (other.gameObject.CompareTag("Ground"))
     {
+        Debug.Log("colidiu");
+        
         // muda a direção do movimento
         direction *= -1f;
 
