@@ -5,18 +5,20 @@ using UnityEngine.UI;
 using TMPro;
 public class CatchResources : MonoBehaviour
 {
-    public TextMeshProUGUI text;
+    public TextMeshProUGUI numberOfResourcesText;
     public Resources resources;
     // Start is called before the first frame update
     void Start()
     {
         resources.resetResorces();
-        text.text =  "0/"+ resources.getMaxResources() ;
+        numberOfResourcesText.text =  "0/"+ resources.getMaxResources() ;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         
     }
 
@@ -24,7 +26,7 @@ public class CatchResources : MonoBehaviour
 
     if(collision.gameObject.tag == "Resources"){
         resources.addResources();
-        text.text = resources.getResources()+ "/"+ resources.getMaxResources() ;
+        numberOfResourcesText.text = resources.getResources()+ "/"+ resources.getMaxResources() ;
         Destroy(collision.gameObject);
     }
  }

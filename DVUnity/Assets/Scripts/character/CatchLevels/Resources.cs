@@ -10,6 +10,7 @@ public class Resources : ScriptableObject
 
     public int MaxResources = 4;
 
+    public Texture resourceImage;
 
     //get the number of resources
     public int getResources()
@@ -32,4 +33,16 @@ public class Resources : ScriptableObject
    {
        resourcesCatch++;
    }
+
+    public Texture getresourceImage()
+    {
+         return resourceImage;
+    }
+
+    //set texture
+    public void setresourceImage(Texture image)
+    {
+        resourceImage= image;
+    }
+
 }

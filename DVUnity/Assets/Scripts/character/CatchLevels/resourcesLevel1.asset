@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1c4f11528031f479c28aef393fb9a5, type: 3}
   m_Name: resourcesLevel1
   m_EditorClassIdentifier: 
-  ResourcesCatch: 0
+  resourcesCatch: 4
+  MaxResources: 4
+  resourceImage: {fileID: 2800000, guid: 6a9d7033fb6077c4e98c0d78ee2d606e, type: 3}

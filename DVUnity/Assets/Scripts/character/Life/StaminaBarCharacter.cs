@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class StaminaBarCharacter : MonoBehaviour
 {
 
@@ -11,10 +10,13 @@ public class StaminaBarCharacter : MonoBehaviour
     private bool isDead;
     private Animator animator;
     private Rigidbody2D rb;
+
+    [SerializeField] private WinLoseLevel winLoseLevel;
+
     // Start is called before the first frame update
     void Start()
     {
-    
+
     characterStamina.resetStamina();
     healthBar.SetHealth(characterStamina.getStamina(), characterStamina.getMaxStamina());  
     isDead=false;
@@ -29,18 +31,30 @@ public class StaminaBarCharacter : MonoBehaviour
        if(characterStamina.getStamina() <= 0){
 
         if(!isDead){
+            
+            
 
-         animator.SetTrigger("TriggerIsDead");
-         isDead=true;
-        rb.gravityScale = 0 ;
+            healthBar.SetHealth(characterStamina.getStamina()  , characterStamina.getMaxStamina());  
 
-      disableAll();
+            animator.SetTrigger("TriggerIsDead");
+             isDead=true;
+            rb.gravityScale = 0 ;
 
-        return;
+
+
+            disableAll();
+
+
+
+            //wait for 5 seconds
+            StartCoroutine(showMenu(5f));
+
+
+            return;
          }
 
         if(isDead){
-        return;
+            return;
         }
 
         characterStamina.resetStamina();
@@ -61,7 +75,11 @@ private void disableAll(){
     // Disable all scripts on this GameObject
         MonoBehaviour[] scripts = gameObject.GetComponents<MonoBehaviour>();
         foreach (MonoBehaviour script in scripts)
-        {
+        {   
+            //check if the script is the stamina bar script
+            if(script == GetComponent<WinLoseLevel>()){
+                continue;
+            }
             script.enabled = false;
         }
 
@@ -72,6 +90,17 @@ private void disableAll(){
         collider.enabled = false;
 }
 
+
+  IEnumerator showMenu(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+            //disable script of the enemy
+        
+            winLoseLevel.loseGame();
+        }
+
+        
 
 }
 
