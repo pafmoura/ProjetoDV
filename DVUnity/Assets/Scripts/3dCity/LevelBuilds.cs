@@ -35,7 +35,7 @@ public class LevelBuilds : ScriptableObject
         }
 
         public void Upgradelevel(){
-            if(level <= 3){
+            if(level < 3){
             level++;
             }
         }
