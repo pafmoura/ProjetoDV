@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: TownHallBuild
   m_EditorClassIdentifier: 
+  level: 3
   level1: {fileID: 5641250816619320874, guid: 268474fc6cccf5a4aba48115cbf55bfe, type: 3}
-  level2: {fileID: 919132149155446097, guid: 51ad540a73e511a47a1032af1cf2f2a8, type: 3}
-  level3: {fileID: 919132149155446097, guid: b291c3dd41610b34591f65501cacd0a2, type: 3}
+  level2: {fileID: 4670075881550636536, guid: b7534b6912ad8ee4fac5deeea3b3e1a6, type: 3}
+  level3: {fileID: 3592656165327822481, guid: a9825a0eef0b24e448038f218a44d7bb, type: 3}

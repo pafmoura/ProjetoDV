@@ -6,7 +6,7 @@ using UnityEngine;
 public class LevelBuilds : ScriptableObject   
 
 {       
-    private int level = 1; 
+    [SerializeField] private int level = 1; 
 
         [SerializeField] GameObject level1 ;
         
@@ -28,6 +28,10 @@ public class LevelBuilds : ScriptableObject
                 default:
                     return null;
             }
+        }
+
+        public void resetLevel(){
+            level = 1;
         }
 
         public void Upgradelevel(){
