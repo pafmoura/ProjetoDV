@@ -14,4 +14,6 @@ public class ButtonsActions : MonoBehaviour
     resourcesManager.addWood(10);
     }
 
+
+
 }

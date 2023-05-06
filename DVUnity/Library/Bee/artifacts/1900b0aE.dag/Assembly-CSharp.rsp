@@ -116,8 +116,6 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnity/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -322,7 +320,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/Pedro Moura/Documents/ProjetoDV/DVUnity/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -351,6 +352,8 @@
 "Assets/BoatMovement.cs"
 "Assets/EnableCanvasOnClick.cs"
 "Assets/LookAtCamera.cs"
+"Assets/NPCMovement.cs"
+"Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/Scripts/3dCity/EvolveScript.cs"
 "Assets/Scripts/3dCity/LevelBuilds.cs"
 "Assets/Scripts/3dCity/MenuUi/ButtonsUI/ButtonsActions.cs"
@@ -370,7 +373,6 @@
 "Assets/Scripts/Enemys/HealthBar.cs"
 "Assets/Scripts/Enemys/skeleton/Level1/Enemy.cs"
 "Assets/Scripts/Enemys/skeleton/Level1/MovementSkeleton.cs"
-"Assets/Scripts/Extras/JumpPad.cs"
 "Assets/Scripts/Menu/MenuEndGame.cs"
 "Assets/Scripts/Menu/ShowMenuCanvas.cs"
 "Assets/Scripts/Timer/Timer.cs"
