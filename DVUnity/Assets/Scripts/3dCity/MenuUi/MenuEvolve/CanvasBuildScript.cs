@@ -16,6 +16,7 @@ public class CanvasBuildScript : MonoBehaviour
     [SerializeField] private EvolveScript buildPort;
     [SerializeField] private EvolveScript buildTownHall;
     [SerializeField] private EvolveScript buildQuartel;
+    [SerializeField] private EvolveScript buildMarket;
 
     [SerializeField] private FunctionsButtonsEvolve functionsButtonsEvolveScript;
 
@@ -54,6 +55,9 @@ public class CanvasBuildScript : MonoBehaviour
                     return buildTownHall;
             case "Quartel":
                     return buildQuartel;
+            case "Market":
+                    return buildMarket;
+                    
 
             default: 
                 return null;
