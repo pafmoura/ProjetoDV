@@ -130,4 +130,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a8dfb337e9ed0d4a98a2e821991165c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thownHallMeshes: {fileID: 11400000, guid: 8fcaf2e342357cd468c205dc4e7fe7e4, type: 2}
+  buildlMeshes: {fileID: 0}

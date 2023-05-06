@@ -15,7 +15,7 @@ public class EvolveScript : MonoBehaviour
         
     }
 
-     public void ReplaceChildrenWithNew()
+     public void evolveBuild()
     {
    
         // Delete all existing child game objects
@@ -36,9 +36,14 @@ public class EvolveScript : MonoBehaviour
 
     void Update(){
         if(Input.GetKeyDown(KeyCode.Space)){
-        Invoke("ReplaceChildrenWithNew", 1f);
+        Invoke("evolveBuild", 1f);
         }
         
+    }
+
+
+    public LevelBuilds getLevelBuilds(){
+        return buildlMeshes;
     }
 
 
