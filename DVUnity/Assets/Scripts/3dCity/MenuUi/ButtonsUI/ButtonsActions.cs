@@ -13,9 +13,7 @@ public class ButtonsActions : MonoBehaviour
 
     public void viewCanvasFarm()
     {
-
         canvasToShow.enableCanvas("Farm");
-    //resourcesManager.addWood(10);
     }
 
     public void viewCanvasWood()

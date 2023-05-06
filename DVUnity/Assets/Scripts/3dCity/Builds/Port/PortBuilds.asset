@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: PortBuilds
   m_EditorClassIdentifier: 
-  level: 3
+  level: 1
   level1: {fileID: 3958105752888918405, guid: 951f233bc7274dd4bae8df18ee17765a, type: 3}
   level2: {fileID: 7971464313039825920, guid: e97b15462b904d04dabb7ec73ed02298, type: 3}
   level3: {fileID: 548153276014356482, guid: 142141aada9c30d4fbf9f700798c54ea, type: 3}
+  foodLevel2: 100
+  rockLevel2: 100
+  woodLevel2: 100
+  foodLevel3: 100
+  rockLevel3: 100
+  woodLevel3: 100
+  resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  description: 
+  buildName: 

@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: WoodBuild
   m_EditorClassIdentifier: 
-  level: 3
+  level: 1
   level1: {fileID: 6030031599447467742, guid: ceff510709854544aa28ae22fe466d5e, type: 3}
   level2: {fileID: 13316132427600156, guid: 9742b6c53586db242a9a6dc5d77472b7, type: 3}
   level3: {fileID: 7909087470316280929, guid: dbe6ff6291a81464a86005c738a3e7d9, type: 3}
+  foodLevel2: 100
+  rockLevel2: 100
+  woodLevel2: 100
+  foodLevel3: 100
+  rockLevel3: 100
+  woodLevel3: 100
+  resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  description: 
+  buildName: 

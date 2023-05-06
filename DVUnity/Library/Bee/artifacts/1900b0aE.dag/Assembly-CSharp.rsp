@@ -357,6 +357,7 @@
 "Assets/Scripts/3dCity/LevelBuilds.cs"
 "Assets/Scripts/3dCity/MenuUi/ButtonsUI/ButtonsActions.cs"
 "Assets/Scripts/3dCity/MenuUi/MenuEvolve/CanvasBuildScript.cs"
+"Assets/Scripts/3dCity/MenuUi/MenuEvolve/ExitMenu.cs"
 "Assets/Scripts/3dCity/MenuUi/MenuEvolve/FunctionsButtonsEvolve.cs"
 "Assets/Scripts/3dCity/MenuUi/ResourcesMenu.cs"
 "Assets/Scripts/3dCity/Resources/ResourcesManager.cs"

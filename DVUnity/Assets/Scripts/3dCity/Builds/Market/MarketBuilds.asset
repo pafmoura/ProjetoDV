@@ -16,3 +16,12 @@ MonoBehaviour:
   level1: {fileID: 3614861907205281293, guid: d98b3f29b49a4f34485c1b7a8fadb446, type: 3}
   level2: {fileID: 9193739693611633092, guid: 9ca01a4925fb1c1428cfd48ac3a56548, type: 3}
   level3: {fileID: 8418136750882340393, guid: cedf780b285b0d1478d45458dd1aeae0, type: 3}
+  foodLevel2: 100
+  rockLevel2: 100
+  woodLevel2: 100
+  foodLevel3: 100
+  rockLevel3: 100
+  woodLevel3: 100
+  resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  description: 
+  buildName: 

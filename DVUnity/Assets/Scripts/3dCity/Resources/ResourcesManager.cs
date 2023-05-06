@@ -71,6 +71,14 @@ public class ResourcesManager : ScriptableObject
     }
 
 
+    //method to remove all the resources
+    public void removeResources(int wood, int rock, int food){
+        removeWood(wood);
+        removeRock(rock);
+        removeFood(food);
+    }
+
+
   //getters
   public int getWood(){
       return wood;

@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: TownHallBuild
   m_EditorClassIdentifier: 
-  level: 3
+  level: 1
   level1: {fileID: 5641250816619320874, guid: 268474fc6cccf5a4aba48115cbf55bfe, type: 3}
   level2: {fileID: 4670075881550636536, guid: b7534b6912ad8ee4fac5deeea3b3e1a6, type: 3}
   level3: {fileID: 3592656165327822481, guid: a9825a0eef0b24e448038f218a44d7bb, type: 3}
+  foodLevel2: 100
+  rockLevel2: 100
+  woodLevel2: 100
+  foodLevel3: 100
+  rockLevel3: 100
+  woodLevel3: 100
+  resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  description: 
+  buildName: 

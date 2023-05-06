@@ -25,9 +25,9 @@ public class EvolveScript : MonoBehaviour
         }
 
         //upgrade the level
-        buildlMeshes.Upgradelevel();
+        buildlMeshes.upgradelevel();
         // Add a new child game object using the specified prefab
-        GameObject newChild = Instantiate(buildlMeshes.GetLevel(), transform);
+        GameObject newChild = Instantiate(buildlMeshes.getLevel(), transform);
         newChild.transform.localPosition = Vector3.zero;
         newChild.transform.localRotation = Quaternion.identity;
     }

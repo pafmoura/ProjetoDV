@@ -15,9 +15,23 @@ public class LevelBuilds : ScriptableObject
         [SerializeField] GameObject level3 ;
 
 
+        [SerializeField] int foodLevel2=100;
+        [SerializeField] int rockLevel2=100;
+        [SerializeField] int woodLevel2=100;
+
+        [SerializeField] int foodLevel3=100;
+        [SerializeField] int rockLevel3=100;
+        [SerializeField] int woodLevel3=100;
+        
+        [SerializeField] ResourcesManager resourcesManager;
+
+
+        [SerializeField] string description;
+        [SerializeField] string buildName;
+
 
         //get all the levels
-        public GameObject GetLevel()
+        public GameObject getLevel()
         {
             switch (level)
             {
@@ -36,13 +50,98 @@ public class LevelBuilds : ScriptableObject
             level = 1;
         }
 
-        public void Upgradelevel(){
+        public void upgradelevel(){
             if(level < 3){
             level++;
             }
         }
 
+
+        public bool UpgradeLevel(){
+
+            if(level== 1){
+            if (resourcesManager.getFood()>= foodLevel2 &&resourcesManager.getRock()>= rockLevel2 && resourcesManager.getWood()>= woodLevel2   ){
+                resourcesManager.removeResources(foodLevel2,rockLevel2,woodLevel2);
+                return true;
+            }       else{
+                return false;
+                }
+            }
+            else if(level== 2){
+                if (resourcesManager.getFood()>= foodLevel2 &&resourcesManager.getRock()>= rockLevel2 && resourcesManager.getWood()>= woodLevel2   ){
+                resourcesManager.removeResources(foodLevel2,rockLevel2,woodLevel2);
+                return true;
+                }else{
+                return false;
+                }
+            }else{
+                return false;
+            }
+            
+        }
+
+        public bool canUpgrade(){   
+            if(level== 1){
+            return (resourcesManager.getFood()>= foodLevel2 &&resourcesManager.getRock()>= rockLevel2 && resourcesManager.getWood()>= woodLevel2   );
+            }
+            
+            else if(level== 2){
+                return (resourcesManager.getFood()>= foodLevel2 &&resourcesManager.getRock()>= rockLevel2 && resourcesManager.getWood()>= woodLevel2);          
+            }else{
+                return false;
+                }
+        }
+
        
+        //getters
+
+        public int getFoodLevelUpgrade(){
+           switch(this.level){
+                case 1:
+                return foodLevel2;
+                case 2:
+                return foodLevel3;
+                default:
+                return 0;
+           }
+        }
+        public int getRockLevelUpgrade(){
+            switch(level){
+                case 1:
+                return rockLevel2;
+                case 2:
+                return rockLevel3;
+                default:
+                return 0;
+
+            }
+           
+        }
+        public int getWoodLevelUpgrade(){
+            switch(level){
+                case 1:
+                return woodLevel2;
+                case 2:
+                return woodLevel3;
+                default:
+                return 0;
+            }
+           
+        }
+
+        public int getNumberLevel(){
+            return level;
+        }
+
+
+    public string getDescription(){
+    return description;
+    }
+    public string getBuildName(){
+
+    return this.buildName;
+    }
+
 
 
 
