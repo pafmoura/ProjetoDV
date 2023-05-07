@@ -62,7 +62,7 @@ public class CanvasBuildScript : MonoBehaviour
     }
 
 
-    private EvolveScript whatEvolveBuildIs(string name){
+    public EvolveScript whatEvolveBuildIs(string name){
         switch (name)
         {
             case "Farm":

@@ -360,6 +360,7 @@
 "Assets/Scripts/3dCity/MenuUi/MenuEvolve/ExitMenu.cs"
 "Assets/Scripts/3dCity/MenuUi/MenuEvolve/FunctionsButtonsEvolve.cs"
 "Assets/Scripts/3dCity/MenuUi/ResourcesMenu.cs"
+"Assets/Scripts/3dCity/MenuUi/ShowLevelsUI.cs"
 "Assets/Scripts/3dCity/Resources/ResourcesManager.cs"
 "Assets/Scripts/character/Animation.cs"
 "Assets/Scripts/character/Attack.cs"

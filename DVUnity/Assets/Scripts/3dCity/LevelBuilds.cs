@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "LevelBuild", menuName = "Scriptable Objects/Village/LevelBuilds")]
 public class LevelBuilds : ScriptableObject   
@@ -30,6 +31,11 @@ public class LevelBuilds : ScriptableObject
         [SerializeField] string buildName;
 
 
+
+        public event UnityAction OnBuildLevelChanged;
+   
+
+
         //get all the levels
         public GameObject getLevel()
         {
@@ -53,6 +59,7 @@ public class LevelBuilds : ScriptableObject
         public void upgradelevel(){
             if(level < 3){
             level++;
+            OnBuildLevelChanged?.Invoke();
             }
         }
 
