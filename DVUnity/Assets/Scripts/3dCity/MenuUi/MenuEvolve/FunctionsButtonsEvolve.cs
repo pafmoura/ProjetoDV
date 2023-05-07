@@ -21,7 +21,7 @@ public class FunctionsButtonsEvolve : MonoBehaviour
     {   
         //function to evolve the build
         //this will be changed for calling a funtion of the levelbuilds scriptable object that says how much resources are needed to upgrade the build 
-        if(levelBuilds.UpgradeLevel()){
+        if(levelBuilds.UpgradeLevelResources()){
             
             
         evolveScript.evolveBuild();

@@ -34,6 +34,7 @@ public class CanvasBuildScript : MonoBehaviour
     [SerializeField] private Button buttonEvolveBuild;
 
 
+    [SerializeField] private GameObject evolutionCostsScriptUI;
 
     public void enableCanvas(string name)
     {    
@@ -87,13 +88,22 @@ public class CanvasBuildScript : MonoBehaviour
 
 
     public void areResourcesUnsuficient(LevelBuilds levelBuilds){
-    
-        if(!levelBuilds.canUpgrade()){
-        notEnoughResources.gameObject.SetActive(true);
-        buttonEvolveBuild.interactable = false;
-        buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
-         }else{
+        //level max
+        if(levelBuilds.getNumberLevel()== 3){
+            Debug.Log("Max Level");
+            notEnoughResources.text= "Max Level";
+            evolutionCostsScriptUI.SetActive(false);
+            notEnoughResources.gameObject.SetActive(true);
+            buttonEvolveBuild.interactable = false;
+            buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
+            }      
+        else if(!levelBuilds.canUpgrade()){ // se nao tiver recursos suficientes
+            notEnoughResources.gameObject.SetActive(true);
+            buttonEvolveBuild.interactable = false;
+            buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
+        }else{ // se tiver recursos suficientes
             notEnoughResources.gameObject.SetActive(false);
+            evolutionCostsScriptUI.SetActive(true);
             buttonEvolveBuild.interactable = true;
             buttonEvolveBuild.GetComponent<Image>().color = Color.white;
          }

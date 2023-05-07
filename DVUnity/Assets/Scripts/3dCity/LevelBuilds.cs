@@ -64,7 +64,7 @@ public class LevelBuilds : ScriptableObject
         }
 
 
-        public bool UpgradeLevel(){
+        public bool UpgradeLevelResources(){
 
             if(level== 1){
             if (resourcesManager.getFood()>= foodLevel2 &&resourcesManager.getRock()>= rockLevel2 && resourcesManager.getWood()>= woodLevel2   ){

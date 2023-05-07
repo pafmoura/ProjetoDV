@@ -125,6 +125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8222806706879926143}
+  - component: {fileID: 5681454712901217832}
   m_Layer: 0
   m_Name: Sail ship
   m_TagString: Untagged
@@ -152,6 +153,20 @@ Transform:
   m_Father: {fileID: 4255710855419555534}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5681454712901217832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8222806706879926142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f839925beb7f4364e923cc015f3e40ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  distance: 750
 --- !u!1 &8222806707011952626
 GameObject:
   m_ObjectHideFlags: 0
