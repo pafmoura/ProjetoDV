@@ -12,7 +12,7 @@ public class EvolveScript : MonoBehaviour
 
     void Start(){
        // buildlMeshes.resetLevel();
-        
+        setBuildByLevel();
     }
 
      public void evolveBuild()
@@ -44,6 +44,13 @@ public class EvolveScript : MonoBehaviour
 
     public LevelBuilds getLevelBuilds(){
         return buildlMeshes;
+    }
+
+
+    private void setBuildByLevel(){
+       GameObject newChild = Instantiate(buildlMeshes.getLevel(), transform);
+        newChild.transform.localPosition = Vector3.zero;
+        newChild.transform.localRotation = Quaternion.identity; 
     }
 
 

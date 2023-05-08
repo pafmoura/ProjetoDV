@@ -91,6 +91,27 @@ public class ResourcesManager : ScriptableObject
     }
 
 
+    //setters
+    private void setWood(int woodNumber){
+        this.wood= woodNumber;
+    }
+    private void setRock(int rockNumber){
+        this.rock= rockNumber;
+    }
+    private void setFood(int foodNumber){
+        this.food= foodNumber;
+    }
+
+    public void setResources(int woodNumber,int rockNumber,int foodNumber ){
+        setWood(woodNumber);
+        setRock(rockNumber);
+        setFood(foodNumber);
+        OnWoodCountChanged?.Invoke();
+        OnRockCountChanged?.Invoke();
+        OnFoodCountChanged?.Invoke();
+    }
+    
+
 }
 
 
