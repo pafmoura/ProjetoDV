@@ -32,19 +32,19 @@ public class ShowLevelsUI : MonoBehaviour
         //os reset levels serao apagados qunando fizermos a build do jogo
 
         TownHall = canvasToShow.whatEvolveBuildIs("TownHall").getLevelBuilds();
-        TownHall.resetLevel();
+      //  TownHall.resetLevel();
         Farm = canvasToShow.whatEvolveBuildIs("Farm").getLevelBuilds();
-        Farm.resetLevel();
+      //  Farm.resetLevel();
         Sawmill = canvasToShow.whatEvolveBuildIs("Sawmill").getLevelBuilds();
-        Sawmill.resetLevel();
+      //  Sawmill.resetLevel();
         Mine = canvasToShow.whatEvolveBuildIs("Mine").getLevelBuilds();
-        Mine.resetLevel();
+        //Mine.resetLevel();
         Port = canvasToShow.whatEvolveBuildIs("Port").getLevelBuilds();
-        Port.resetLevel();
+        //Port.resetLevel();
         Quartel = canvasToShow.whatEvolveBuildIs("Quartel").getLevelBuilds();
-        Quartel.resetLevel();
+        //Quartel.resetLevel();
         Market = canvasToShow.whatEvolveBuildIs("Market").getLevelBuilds();
-        Market.resetLevel();
+        //Market.resetLevel();
 
         setLevelBuilds();
 

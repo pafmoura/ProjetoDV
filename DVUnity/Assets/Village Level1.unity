@@ -1923,6 +1923,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e89630bd9bdec984d87647131c663ee7, type: 3}
   m_PrefabInstance: {fileID: 511099253}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &498931853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498931855}
+  - component: {fileID: 498931854}
+  m_Layer: 0
+  m_Name: TesteSave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &498931854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498931853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2664fc276a78a264dabe722857842174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  farm: {fileID: 11400000, guid: 38a7a93bad8066f419c5049fa709bb5b, type: 2}
+  mine: {fileID: 0}
+  sawmill: {fileID: 0}
+  market: {fileID: 0}
+  townhall: {fileID: 0}
+  port: {fileID: 0}
+  resourcesManager: {fileID: 0}
+--- !u!4 &498931855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498931853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -235.67468, y: -1529.4432, z: -1933.0472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 76
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508735195
 GameObject:
   m_ObjectHideFlags: 0

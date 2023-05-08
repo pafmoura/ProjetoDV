@@ -379,6 +379,7 @@
 "Assets/Scripts/Extras/JumpPad.cs"
 "Assets/Scripts/Menu/MenuEndGame.cs"
 "Assets/Scripts/Menu/ShowMenuCanvas.cs"
+"Assets/Scripts/SaveGame/JsonUtilitySave.cs"
 "Assets/Scripts/Timer/Timer.cs"
 -langversion:9.0
 

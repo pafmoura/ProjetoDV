@@ -7,7 +7,10 @@ using UnityEngine.Events;
 public class LevelBuilds : ScriptableObject   
 
 {       
-    [SerializeField] private int level = 1; 
+
+
+
+        [SerializeField] private int level = 1; 
 
         [SerializeField] GameObject level1 ;
         
@@ -52,10 +55,10 @@ public class LevelBuilds : ScriptableObject
             }
         }
 
-        public void resetLevel(){
+    /*    public void resetLevel(){
             level = 1;
         }
-
+*/
         public void upgradelevel(){
             if(level < 3){
             level++;
@@ -134,6 +137,12 @@ public class LevelBuilds : ScriptableObject
                 return 0;
             }
            
+        }
+
+
+        public void setLevelFromJson(int level){
+            Debug.Log("LevelBuilds: "+level);
+            this.level = level;
         }
 
         public int getNumberLevel(){

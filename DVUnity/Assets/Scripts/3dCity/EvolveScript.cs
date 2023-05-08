@@ -11,7 +11,7 @@ public class EvolveScript : MonoBehaviour
 
 
     void Start(){
-        buildlMeshes.resetLevel();
+       // buildlMeshes.resetLevel();
         
     }
 
