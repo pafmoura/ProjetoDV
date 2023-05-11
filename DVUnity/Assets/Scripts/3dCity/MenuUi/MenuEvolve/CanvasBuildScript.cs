@@ -28,6 +28,8 @@ public class CanvasBuildScript : MonoBehaviour
     [SerializeField] private TextMeshProUGUI wood;
     [SerializeField] private TextMeshProUGUI rock;
 
+    [SerializeField] private Image imageBuild;
+
     [SerializeField] private TextMeshProUGUI notEnoughResources;
 
 
@@ -36,11 +38,25 @@ public class CanvasBuildScript : MonoBehaviour
 
     [SerializeField] private GameObject evolutionCostsScriptUI;
 
+
+
+    //attributes to show the resources production
+    [SerializeField] private GameObject resourcesProduction;
+    [SerializeField] private TextMeshProUGUI production;
+
+    [SerializeField] private ResourcesProduction ResourcesProductionWoodScript;
+    [SerializeField] private ResourcesProduction ResourcesProductionRockScript;
+    [SerializeField] private ResourcesProduction ResourcesProductionFoodScript;
+
+
+
     public void enableCanvas(string name)
     {    
 
         LevelBuilds levelBuilds = whatEvolveBuildIs(name).getLevelBuilds();
         areResourcesUnsuficient(levelBuilds);
+
+        isProductionBuilding(levelBuilds);
 
         this.description.text = levelBuilds.getDescription().ToString();
         this.level.text = levelBuilds.getNumberLevel().ToString();
@@ -48,12 +64,33 @@ public class CanvasBuildScript : MonoBehaviour
         this.wood.text = levelBuilds.getWoodLevelUpgrade().ToString();
         this.rock.text = levelBuilds.getRockLevelUpgrade().ToString();
         this.buildName.text = levelBuilds.getBuildName().ToString();
+        this.imageBuild.sprite = levelBuilds.getImageBuild();
         functionsButtonsEvolveScript.setLevelBuilds(whatEvolveBuildIs(name));
         
         
 
         gameObject.SetActive(true);
     }
+
+
+
+
+    private void isProductionBuilding(LevelBuilds levelBuilds){
+        if(levelBuilds.getBuildName() == "Farm" ){
+            resourcesProduction.SetActive(true);
+            production.text = ResourcesProductionFoodScript.getProducionByHourFood().ToString();
+            }else if(   levelBuilds.getBuildName() == "Mina"){
+                resourcesProduction.SetActive(true);
+                production.text = ResourcesProductionRockScript.getProducionByHourRock().ToString();
+
+            }else if(   levelBuilds.getBuildName() == "Serraria"){
+                resourcesProduction.SetActive(true);
+                production.text = ResourcesProductionWoodScript.getProducionByHourWood().ToString();
+
+            }
+    }
+
+
 
 
 

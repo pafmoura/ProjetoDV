@@ -58,7 +58,9 @@ public class ResourcesManager : ScriptableObject
 
 
     public void addFood(int amount){
+        
         if(food >= amount){
+            Debug.Log("add food");
         food += amount;
         OnFoodCountChanged?.Invoke( );
         }

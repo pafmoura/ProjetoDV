@@ -32,7 +32,7 @@ public class LevelBuilds : ScriptableObject
 
         [SerializeField] string description;
         [SerializeField] string buildName;
-
+        [SerializeField] Sprite image;
 
 
         public event UnityAction OnBuildLevelChanged;
@@ -156,6 +156,9 @@ public class LevelBuilds : ScriptableObject
     public string getBuildName(){
 
     return this.buildName;
+    }
+    public Sprite getImageBuild(){
+        return this.image;
     }
 
 

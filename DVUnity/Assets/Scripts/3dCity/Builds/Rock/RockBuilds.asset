@@ -23,5 +23,6 @@ MonoBehaviour:
   rockLevel3: 100
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
-  description: 
-  buildName: 
+  description: "esta \xE9 a mina"
+  buildName: Mina
+  image: {fileID: 21300000, guid: a3a72260e331f7d4eb8b7a29b7b81c80, type: 3}
