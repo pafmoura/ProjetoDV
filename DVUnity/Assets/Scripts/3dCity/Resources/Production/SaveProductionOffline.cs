@@ -10,17 +10,18 @@ public class SaveProductionOffline : MonoBehaviour
 
     private DateTime lastProductionTime;
 
-    [SerializeField] private ResourcesProduction resourcesProductionScript;
+    [SerializeField] private ResourcesProduction resourcesProductionWood;
+    [SerializeField] private ResourcesProduction resourcesProductionRock;
+    [SerializeField] private ResourcesProduction resourcesProductionFood;
    
     [SerializeField] private GameObject canvasResourcesProductionOffline;
 
     [SerializeField] private ShowProductionOffline showProductionOfflineScript;
 
-    [SerializeField] private ManagerProductions managerProductions;
+  
 
-
-    void Start(){
-        managerProductions.setUpLevels();
+    public void doProductionOffline(){
+        setUpLevels();
 
         if(File.Exists(Application.dataPath + "/SaveData/TimeLastProduction.json")){
             SaveTimeLastProduction saveTimeLastProduction= LoadFromJson<SaveTimeLastProduction>(Application.dataPath + "/SaveData/TimeLastProduction.json");
@@ -30,14 +31,23 @@ public class SaveProductionOffline : MonoBehaviour
         }
     }
 
+
+       public void setUpLevels(){
+        resourcesProductionWood.changeLevel();
+        resourcesProductionRock.changeLevel();
+        resourcesProductionFood.changeLevel();   
+    }
+
+
+
     private void addProduction(){
         TimeSpan timeSpan = DateTime.Now - lastProductionTime;
         int seconds = (int)timeSpan.TotalSeconds;
         
 
-        int woodMade= seconds*resourcesProductionScript.getIncrementWoodBySecondOffline();
-        int rockMade= seconds*resourcesProductionScript.getIncrementRockBySecondOffline();
-        int foodMade= seconds*resourcesProductionScript.getIncrementFoodBySecondOffline();
+        int woodMade= seconds*resourcesProductionWood.getIncrementBySecondOffline();
+        int rockMade= seconds*resourcesProductionRock.getIncrementBySecondOffline();
+        int foodMade= seconds*resourcesProductionFood.getIncrementBySecondOffline();
 
 
         resourcesManager.addFood(foodMade);

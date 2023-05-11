@@ -7,47 +7,56 @@ public class ResourcesProduction : MonoBehaviour
 {
 
 
-    [SerializeField] private LevelBuilds levelBuilds;
+    [SerializeField] private LevelBuilds currentLevelBuilds;
     [SerializeField] private ResourcesManager resourcesManager;
     private int level;
 
-    private int incrementWoodBySecond;
-    private int incrementRockBySecond;
-    private int incrementFoodBySecond;
+    //private int incrementWoodBySecond;
+   // private int incrementRockBySecond;
+    //private int incrementFoodBySecond;
+    private int incrementBySecond;
     
     private DateTime lastProductionTime;
 
     private double percentajeProductionOffline= 0.5; //50% of the production offline
 
 
+    [SerializeField] private int multiplierProduction= 10;
+
+
+
+    
+
 
        private void OnEnable()
     {
-    levelBuilds.OnBuildLevelChanged += changeLevel;
+        currentLevelBuilds.OnBuildLevelChanged += changeLevel;
     }
     private void OnDisable()
     {
-    levelBuilds.OnBuildLevelChanged -= changeLevel;
+    currentLevelBuilds.OnBuildLevelChanged -= changeLevel;
     }
 
 
     private void setIncrement(){
-        incrementWoodBySecond= level*10;
-        incrementRockBySecond= level*10;
-        incrementFoodBySecond= level*10;
+       // incrementWoodBySecond= level*multiplierProduction;
+     //   incrementRockBySecond= level*10;
+    //    incrementFoodBySecond= level*10;
+        incrementBySecond= level*multiplierProduction;
     }
    
+
+
+
    
     void Start()
     {
 
+       
+       
 
         changeLevel();
         
-        
-
-        
-       
 
         if(gameObject.name.Contains("Farm")){
             StartCoroutine(produceFood());
@@ -61,9 +70,11 @@ public class ResourcesProduction : MonoBehaviour
 
 
 
+
+
     public void changeLevel(){
-     
-        level = levelBuilds.getNumberLevel();
+      
+        level = currentLevelBuilds.getNumberLevel();
         setIncrement();
     }
 
@@ -73,7 +84,7 @@ public class ResourcesProduction : MonoBehaviour
     IEnumerator produceFood(){
      
             yield return new WaitForSeconds(1f);
-            resourcesManager.addFood(incrementFoodBySecond);
+            resourcesManager.addFood(incrementBySecond);
             StartCoroutine(produceFood());
         
     }
@@ -81,7 +92,7 @@ public class ResourcesProduction : MonoBehaviour
     IEnumerator produceRock(){
         
             yield return new WaitForSeconds(1f);
-            resourcesManager.addRock(incrementRockBySecond);
+            resourcesManager.addRock(incrementBySecond);
             StartCoroutine(produceRock());
         
     }
@@ -89,12 +100,12 @@ public class ResourcesProduction : MonoBehaviour
     IEnumerator produceWood(){
         
             yield return new WaitForSeconds(1f);
-            resourcesManager.addWood(incrementWoodBySecond);
+            resourcesManager.addWood(incrementBySecond);
             StartCoroutine(produceWood());
         
     }
 
-
+/*
     public int getProducionByHourWood(){
         return incrementWoodBySecond*3600;  
     }
@@ -108,18 +119,27 @@ public class ResourcesProduction : MonoBehaviour
 
 
     public int getIncrementWoodBySecondOffline(){
-        changeLevel();
+        
         return (int)(this.incrementWoodBySecond*percentajeProductionOffline);
     }
     public int getIncrementRockBySecondOffline(){
-        changeLevel();
+        
         return (int)(this.incrementRockBySecond*percentajeProductionOffline);
     }
     public int getIncrementFoodBySecondOffline(){
-        changeLevel();
+        
+        
         return (int)(this.incrementFoodBySecond*percentajeProductionOffline);
     }
-
+*/
+    public int getProducionByHour(){
+        return incrementBySecond*3600;  
+    }
+    
+    public int getIncrementBySecondOffline(){
+        
+        return (int)(this.incrementBySecond*percentajeProductionOffline);
+    }
 
 }
 

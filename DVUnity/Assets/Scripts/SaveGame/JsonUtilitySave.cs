@@ -17,6 +17,7 @@ public class JsonUtilitySave : MonoBehaviour
 
     [SerializeField] private ResourcesManager resourcesManager;
     
+    [SerializeField] private SaveProductionOffline saveProductionOffline;
 
     //guardar os niveis que já se fez no 2d game
 
@@ -51,6 +52,9 @@ public class JsonUtilitySave : MonoBehaviour
         }else {
             inicialResources();
         }
+
+        //production offline that shows how much resources you made offline
+        saveProductionOffline.doProductionOffline();
     }
 
     private void inicialBuilds(){

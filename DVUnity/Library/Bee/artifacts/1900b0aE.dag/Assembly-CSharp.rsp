@@ -362,7 +362,6 @@
 "Assets/Scripts/3dCity/MenuUi/MenuEvolve/FunctionsButtonsEvolve.cs"
 "Assets/Scripts/3dCity/MenuUi/ResourcesMenu.cs"
 "Assets/Scripts/3dCity/MenuUi/ShowLevelsUI.cs"
-"Assets/Scripts/3dCity/Resources/Production/ManagerProductions.cs"
 "Assets/Scripts/3dCity/Resources/Production/ResourcesProduction.cs"
 "Assets/Scripts/3dCity/Resources/Production/SaveProductionOffline.cs"
 "Assets/Scripts/3dCity/Resources/Production/ShowProductionOffline.cs"

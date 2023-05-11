@@ -2170,8 +2170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281e34d1dd839840b4bdfc8851ea699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelBuilds: {fileID: 11400000, guid: 8a126fea000a3914fb70034aab212da7, type: 2}
+  currentLevelBuilds: {fileID: 11400000, guid: 8a126fea000a3914fb70034aab212da7, type: 2}
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  multiplierProduction: 10
 --- !u!1001 &407427165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2511,6 +2512,7 @@ MonoBehaviour:
   port: {fileID: 11400000, guid: 95590fa66feca6a4a9295e6b9a55d8b5, type: 2}
   quartel: {fileID: 11400000, guid: dca349467e9bae247a50f8ba9479c525, type: 2}
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  saveProductionOffline: {fileID: 498931856}
 --- !u!4 &498931855
 Transform:
   m_ObjectHideFlags: 0
@@ -2539,10 +2541,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
-  resourcesProductionScript: {fileID: 1565506360}
+  resourcesProductionWood: {fileID: 402386846}
+  resourcesProductionRock: {fileID: 1992540691}
+  resourcesProductionFood: {fileID: 1565506360}
   canvasResourcesProductionOffline: {fileID: 1587922501}
   showProductionOfflineScript: {fileID: 1587922506}
-  managerProductions: {fileID: 498931857}
 --- !u!114 &498931857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10215,8 +10218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281e34d1dd839840b4bdfc8851ea699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelBuilds: {fileID: 11400000, guid: 38a7a93bad8066f419c5049fa709bb5b, type: 2}
+  currentLevelBuilds: {fileID: 11400000, guid: 38a7a93bad8066f419c5049fa709bb5b, type: 2}
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  multiplierProduction: 10
 --- !u!1 &1570450404
 GameObject:
   m_ObjectHideFlags: 0
@@ -14442,8 +14446,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1281e34d1dd839840b4bdfc8851ea699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelBuilds: {fileID: 11400000, guid: e52db37a2f4b5e34e9e7dfc3043a1247, type: 2}
+  currentLevelBuilds: {fileID: 11400000, guid: e52db37a2f4b5e34e9e7dfc3043a1247, type: 2}
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  multiplierProduction: 10
 --- !u!4 &1993996270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1279437348525638701, guid: e2e682b966e3f644392ffbfab511e0e2, type: 3}
