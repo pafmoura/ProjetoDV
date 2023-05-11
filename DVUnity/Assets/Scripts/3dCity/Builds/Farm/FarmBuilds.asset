@@ -26,3 +26,4 @@ MonoBehaviour:
   description: Aqui esta uma texto dinamico
   buildName: Farm
   image: {fileID: 21300000, guid: 990402083e2d7b144b9c3a3f40df2c4c, type: 3}
+  iconProduction: {fileID: 21300000, guid: 990402083e2d7b144b9c3a3f40df2c4c, type: 3}

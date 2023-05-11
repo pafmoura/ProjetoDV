@@ -17,6 +17,9 @@ public class ResourcesProduction : MonoBehaviour
     
     private DateTime lastProductionTime;
 
+    private double percentajeProductionOffline= 0.5; //50% of the production offline
+
+
 
        private void OnEnable()
     {
@@ -40,16 +43,11 @@ public class ResourcesProduction : MonoBehaviour
 
 
         changeLevel();
-        setIncrement();
-
+        
+        
 
         
-        if(File.Exists(Application.dataPath + "/SaveData/TimeLastProduction.json")){
-            SaveTimeLastProduction saveTImeLastProduction= LoadFromJson<SaveTimeLastProduction>(Application.dataPath + "/SaveData/TimeLastProduction.json");
-            lastProductionTime= saveTImeLastProduction.lastProductionTime;
-            addProduction();
-
-        }
+       
 
         if(gameObject.name.Contains("Farm")){
             StartCoroutine(produceFood());
@@ -63,8 +61,10 @@ public class ResourcesProduction : MonoBehaviour
 
 
 
-    private void changeLevel(){
+    public void changeLevel(){
+     
         level = levelBuilds.getNumberLevel();
+        setIncrement();
     }
 
 
@@ -73,7 +73,6 @@ public class ResourcesProduction : MonoBehaviour
     IEnumerator produceFood(){
      
             yield return new WaitForSeconds(1f);
-            
             resourcesManager.addFood(incrementFoodBySecond);
             StartCoroutine(produceFood());
         
@@ -108,54 +107,20 @@ public class ResourcesProduction : MonoBehaviour
 
 
 
-
-
-
-    //methods to save the time of the last production
-
-
-
-    private void addProduction(){
-        TimeSpan timeSpan = DateTime.Now - lastProductionTime;
-        int seconds = (int)timeSpan.TotalSeconds;
-        resourcesManager.addFood(seconds*incrementFoodBySecond);
-        resourcesManager.addRock(seconds*incrementRockBySecond);
-        resourcesManager.addWood(seconds*incrementWoodBySecond);
-        }
-
-
-      public static void SaveToJson<T>(T data, string filePath)
-    {
-        string json = JsonUtility.ToJson(data);
-        File.WriteAllText(filePath, json);
+    public int getIncrementWoodBySecondOffline(){
+        changeLevel();
+        return (int)(this.incrementWoodBySecond*percentajeProductionOffline);
     }
-
-    public static T LoadFromJson<T>(string filePath)
-    {
-        string json = File.ReadAllText(filePath);
-        T data = JsonUtility.FromJson<T>(json);
-        return data;
+    public int getIncrementRockBySecondOffline(){
+        changeLevel();
+        return (int)(this.incrementRockBySecond*percentajeProductionOffline);
     }
-
-   
-   
-   
-     void OnApplicationQuit(){
-        saveTime();
-   }
-
-
-
-    private void saveTime(){
-        SaveTimeLastProduction saveTImeLastProduction = new SaveTimeLastProduction();
-        saveTImeLastProduction.lastProductionTime= DateTime.Now;
-        SaveToJson(saveTImeLastProduction,Application.dataPath + "/SaveData/TimeLastProduction.json");
+    public int getIncrementFoodBySecondOffline(){
+        changeLevel();
+        return (int)(this.incrementFoodBySecond*percentajeProductionOffline);
     }
 
 
 }
-[Serializable]
-public class SaveTimeLastProduction
-{
-    public DateTime lastProductionTime;
-}
+
+

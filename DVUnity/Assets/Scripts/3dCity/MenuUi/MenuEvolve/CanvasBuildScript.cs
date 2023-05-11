@@ -39,16 +39,9 @@ public class CanvasBuildScript : MonoBehaviour
     [SerializeField] private GameObject evolutionCostsScriptUI;
 
 
+    [SerializeField] private CanvasResourcesProduction canvasResourcesProductionScript;
 
-    //attributes to show the resources production
-    [SerializeField] private GameObject resourcesProduction;
-    [SerializeField] private TextMeshProUGUI production;
-
-    [SerializeField] private ResourcesProduction ResourcesProductionWoodScript;
-    [SerializeField] private ResourcesProduction ResourcesProductionRockScript;
-    [SerializeField] private ResourcesProduction ResourcesProductionFoodScript;
-
-
+   
 
     public void enableCanvas(string name)
     {    
@@ -56,7 +49,7 @@ public class CanvasBuildScript : MonoBehaviour
         LevelBuilds levelBuilds = whatEvolveBuildIs(name).getLevelBuilds();
         areResourcesUnsuficient(levelBuilds);
 
-        isProductionBuilding(levelBuilds);
+       canvasResourcesProductionScript.isProductionBuilding(levelBuilds);
 
         this.description.text = levelBuilds.getDescription().ToString();
         this.level.text = levelBuilds.getNumberLevel().ToString();
@@ -75,20 +68,7 @@ public class CanvasBuildScript : MonoBehaviour
 
 
 
-    private void isProductionBuilding(LevelBuilds levelBuilds){
-        if(levelBuilds.getBuildName() == "Farm" ){
-            resourcesProduction.SetActive(true);
-            production.text = ResourcesProductionFoodScript.getProducionByHourFood().ToString();
-            }else if(   levelBuilds.getBuildName() == "Mina"){
-                resourcesProduction.SetActive(true);
-                production.text = ResourcesProductionRockScript.getProducionByHourRock().ToString();
-
-            }else if(   levelBuilds.getBuildName() == "Serraria"){
-                resourcesProduction.SetActive(true);
-                production.text = ResourcesProductionWoodScript.getProducionByHourWood().ToString();
-
-            }
-    }
+   
 
 
 

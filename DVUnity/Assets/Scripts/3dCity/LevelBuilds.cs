@@ -34,6 +34,8 @@ public class LevelBuilds : ScriptableObject
         [SerializeField] string buildName;
         [SerializeField] Sprite image;
 
+        [SerializeField] Sprite iconProduction;
+
 
         public event UnityAction OnBuildLevelChanged;
    
@@ -141,7 +143,6 @@ public class LevelBuilds : ScriptableObject
 
 
         public void setLevelFromJson(int level){
-            Debug.Log("LevelBuilds: "+level);
             this.level = level;
         }
 
@@ -159,6 +160,9 @@ public class LevelBuilds : ScriptableObject
     }
     public Sprite getImageBuild(){
         return this.image;
+    }
+    public Sprite getIconProduction(){
+        return this.iconProduction;
     }
 
 

@@ -38,20 +38,41 @@ public class JsonUtilitySave : MonoBehaviour
         //builds
         if(File.Exists(Application.dataPath + "/SaveData/LevelBuild.json")){
         Building buildsData= LoadFromJson<Building>(Application.dataPath + "/SaveData/LevelBuild.json");   
-        farm.setLevelFromJson(buildsData.levelFarm);
-        mine.setLevelFromJson(buildsData.levelMine);
-        sawmill.setLevelFromJson(buildsData.levelSawmill);
-        market.setLevelFromJson(buildsData.levelMarket);
-        townhall.setLevelFromJson(buildsData.levelTownhall);
-        port.setLevelFromJson(buildsData.levelPort);
-        quartel.setLevelFromJson(buildsData.levelQuartel);
+        setLevelsBuilds(buildsData);
+        }else{
+            //create file
+            inicialBuilds();
         }
 
         //resources
         if(File.Exists(Application.dataPath + "/SaveData/Resources.json")){
             SaveResources resources= LoadFromJson<SaveResources>(Application.dataPath + "/SaveData/Resources.json");
             resourcesManager.setResources(resources.wood,resources.rock,resources.food);
+        }else {
+            inicialResources();
         }
+    }
+
+    private void inicialBuilds(){
+        Building building = new Building();
+        setLevelsBuilds(building);
+    }
+
+    private void inicialResources(){
+        SaveResources resources = new SaveResources();
+        resourcesManager.setResources(resources.wood,resources.rock,resources.food);
+    }
+
+
+
+    private void setLevelsBuilds(Building building){
+        farm.setLevelFromJson(building.levelFarm);
+        mine.setLevelFromJson(building.levelMine);
+        sawmill.setLevelFromJson(building.levelSawmill);
+        market.setLevelFromJson(building.levelMarket);
+        townhall.setLevelFromJson(building.levelTownhall);
+        port.setLevelFromJson(building.levelPort);
+        quartel.setLevelFromJson(building.levelQuartel);
     }
 
 
@@ -77,6 +98,7 @@ public class JsonUtilitySave : MonoBehaviour
         resources.wood= resourcesManager.getWood();
         resources.rock= resourcesManager.getRock();
         resources.food= resourcesManager.getFood();
+        SaveToJson(resources, Application.dataPath + "/SaveData/Resources.json");
         
     }
 
@@ -103,9 +125,9 @@ public class Building{
 
 }
 
-
+[System.Serializable]
 public class SaveResources{
-    public int wood=100;
-    public int rock=100;
-    public int food=100;
+    public int wood=0;
+    public int rock=0;
+    public int food=0;
 }
