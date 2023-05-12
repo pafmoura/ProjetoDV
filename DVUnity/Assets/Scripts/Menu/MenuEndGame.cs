@@ -6,11 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuEndGame : MonoBehaviour
 {
     
-    //strat
-    void Start()
-    {
-
-    }
+   
 
     public void exitGame(){
         Debug.Log("Continue Game");

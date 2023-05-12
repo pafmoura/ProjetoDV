@@ -108,9 +108,13 @@ public class JsonUtilitySave : MonoBehaviour
 
 
    void OnApplicationQuit(){
+        saveAll();
+   }
+
+    public void saveAll(){
         saveBuilds();
         saveResources();
-   }
+    }
 
 }
 

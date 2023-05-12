@@ -11,17 +11,20 @@ public class WinLoseLevel : MonoBehaviour
     [SerializeField] private RawImage rawImage;
     [SerializeField] private TextMeshProUGUI NumberOfResources;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+    [SerializeField] private SendResourcesWon sendResourcesWon;
 
-    public void WinGame(int resources, Texture image, string textResources){
+
+    public void WinGame(int resources, Texture image, string textResources, string nameOfResource){
         rawImage.texture = image;
         NumberOfResources.text = textResources;
 
         disableScriptsOfEnemys();
         showMenuCanvasWin.ShowMenu();
+
+        //send the resources to the village
+        sendResourcesWon.sendResources(resources, nameOfResource);
+
 
         //disable the player
         gameObject.SetActive(false);

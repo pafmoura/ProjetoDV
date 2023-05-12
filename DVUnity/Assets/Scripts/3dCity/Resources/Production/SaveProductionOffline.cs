@@ -82,6 +82,10 @@ public class SaveProductionOffline : MonoBehaviour
         
    }
 
+   public void saveAll(){
+       saveTime();
+    }
+
 
 
     private void saveTime(){

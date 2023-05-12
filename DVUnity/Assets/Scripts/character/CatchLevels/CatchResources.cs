@@ -11,7 +11,7 @@ public class CatchResources : MonoBehaviour
     void Start()
     {
         resources.resetResorces();
-        numberOfResourcesText.text =  "0/"+ resources.getMaxResources() ;
+        numberOfResourcesText.text =  "0";///"+ resources.getMaxResources() ;
         
     }
 
@@ -26,7 +26,7 @@ public class CatchResources : MonoBehaviour
 
     if(collision.gameObject.tag == "Resources"){
         resources.addResources();
-        numberOfResourcesText.text = resources.getResources()+ "/"+ resources.getMaxResources() ;
+        numberOfResourcesText.text = resources.getResources().ToString(); //"/"+ resources.getMaxResources() ;
         Destroy(collision.gameObject);
     }
  }
