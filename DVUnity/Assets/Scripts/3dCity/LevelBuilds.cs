@@ -7,7 +7,10 @@ using UnityEngine.Events;
 public class LevelBuilds : ScriptableObject   
 
 {       
-    [SerializeField] private int level = 1; 
+
+
+
+        [SerializeField] private int level = 1; 
 
         [SerializeField] GameObject level1 ;
         
@@ -29,7 +32,9 @@ public class LevelBuilds : ScriptableObject
 
         [SerializeField] string description;
         [SerializeField] string buildName;
+        [SerializeField] Sprite image;
 
+        [SerializeField] Sprite iconProduction;
 
 
         public event UnityAction OnBuildLevelChanged;
@@ -52,10 +57,10 @@ public class LevelBuilds : ScriptableObject
             }
         }
 
-        public void resetLevel(){
+    /*    public void resetLevel(){
             level = 1;
         }
-
+*/
         public void upgradelevel(){
             if(level < 3){
             level++;
@@ -136,6 +141,11 @@ public class LevelBuilds : ScriptableObject
            
         }
 
+
+        public void setLevelFromJson(int level){
+            this.level = level;
+        }
+
         public int getNumberLevel(){
             return level;
         }
@@ -147,6 +157,12 @@ public class LevelBuilds : ScriptableObject
     public string getBuildName(){
 
     return this.buildName;
+    }
+    public Sprite getImageBuild(){
+        return this.image;
+    }
+    public Sprite getIconProduction(){
+        return this.iconProduction;
     }
 
 

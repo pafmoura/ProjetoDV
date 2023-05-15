@@ -66,10 +66,7 @@ public class OpenDoor : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player"){
-            winLevel.WinGame(resources.getResources(), resources.getresourceImage(),resources.getResources().ToString());
-           
-
-
+            winLevel.WinGame(resources.getResources(), resources.getresourceImage(),resources.getResources().ToString(), resources.getNameOfResource());
         }
         
     }

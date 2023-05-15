@@ -28,6 +28,8 @@ public class CanvasBuildScript : MonoBehaviour
     [SerializeField] private TextMeshProUGUI wood;
     [SerializeField] private TextMeshProUGUI rock;
 
+    [SerializeField] private Image imageBuild;
+
     [SerializeField] private TextMeshProUGUI notEnoughResources;
 
 
@@ -36,11 +38,18 @@ public class CanvasBuildScript : MonoBehaviour
 
     [SerializeField] private GameObject evolutionCostsScriptUI;
 
+
+    [SerializeField] private CanvasResourcesProduction canvasResourcesProductionScript;
+
+   
+
     public void enableCanvas(string name)
     {    
 
         LevelBuilds levelBuilds = whatEvolveBuildIs(name).getLevelBuilds();
         areResourcesUnsuficient(levelBuilds);
+
+       canvasResourcesProductionScript.isProductionBuilding(levelBuilds);
 
         this.description.text = levelBuilds.getDescription().ToString();
         this.level.text = levelBuilds.getNumberLevel().ToString();
@@ -48,12 +57,20 @@ public class CanvasBuildScript : MonoBehaviour
         this.wood.text = levelBuilds.getWoodLevelUpgrade().ToString();
         this.rock.text = levelBuilds.getRockLevelUpgrade().ToString();
         this.buildName.text = levelBuilds.getBuildName().ToString();
+        this.imageBuild.sprite = levelBuilds.getImageBuild();
         functionsButtonsEvolveScript.setLevelBuilds(whatEvolveBuildIs(name));
         
         
 
         gameObject.SetActive(true);
     }
+
+
+
+
+   
+
+
 
 
 

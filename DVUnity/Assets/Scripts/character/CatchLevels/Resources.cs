@@ -8,9 +8,12 @@ public class Resources : ScriptableObject
 {
    public int resourcesCatch=0;
 
-    public int MaxResources = 4;
+    //public int MaxResources = 4;
+    public int resourceByCatch = 1;
 
     public Texture resourceImage;
+
+    public string nameOfResource;
 
     //get the number of resources
     public int getResources()
@@ -18,9 +21,13 @@ public class Resources : ScriptableObject
          return resourcesCatch;
     }
     //get the max number of resources
-    public int getMaxResources()
+   /* public int getMaxResources()
     {
         return MaxResources;
+    }*/
+    public int getResourceByCatch()
+    {
+        return resourceByCatch;
     }
     
 
@@ -31,7 +38,7 @@ public class Resources : ScriptableObject
 
    public void addResources()
    {
-       resourcesCatch++;
+       resourcesCatch+= resourceByCatch;
    }
 
     public Texture getresourceImage()
@@ -44,5 +51,11 @@ public class Resources : ScriptableObject
     {
         resourceImage= image;
     }
+
+
+    public string getNameOfResource()
+    {
+         return nameOfResource;
+    } 
 
 }

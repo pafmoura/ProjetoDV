@@ -30,10 +30,10 @@ public class ResourcesManager : ScriptableObject
      
 
     public void addWood(int amount){
-       if(wood >= amount){
+       
         wood += amount;
         OnWoodCountChanged?.Invoke();
-        }
+       
     }
     public void removeWood(int amount){
     if(wood >= amount){
@@ -44,10 +44,10 @@ public class ResourcesManager : ScriptableObject
 
 
     public void addRock(int amount){
-        if(rock >= amount){
+       
         rock += amount;
         OnRockCountChanged?.Invoke();
-        }
+       
     }
     public void removeRock(int amount){
         if(rock >= amount){
@@ -58,10 +58,11 @@ public class ResourcesManager : ScriptableObject
 
 
     public void addFood(int amount){
-        if(food >= amount){
+        
+       
         food += amount;
-        OnFoodCountChanged?.Invoke( );
-        }
+        OnFoodCountChanged?.Invoke();
+       
     }
     public void removeFood(int amount){
         if(food >= amount){
@@ -90,6 +91,27 @@ public class ResourcesManager : ScriptableObject
         return food;
     }
 
+
+    //setters
+    private void setWood(int woodNumber){
+        this.wood= woodNumber;
+    }
+    private void setRock(int rockNumber){
+        this.rock= rockNumber;
+    }
+    private void setFood(int foodNumber){
+        this.food= foodNumber;
+    }
+
+    public void setResources(int woodNumber,int rockNumber,int foodNumber ){
+        setWood(woodNumber);
+        setRock(rockNumber);
+        setFood(foodNumber);
+        OnWoodCountChanged?.Invoke();
+        OnRockCountChanged?.Invoke();
+        OnFoodCountChanged?.Invoke();
+    }
+    
 
 }
 
