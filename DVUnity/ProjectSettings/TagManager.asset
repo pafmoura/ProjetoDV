@@ -9,6 +9,8 @@ TagManager:
   - Ground
   - waypoint
   - NPC Floor
+  - EnemyTroop
+  - DefendingTroop
   layers:
   - Default
   - TransparentFX
