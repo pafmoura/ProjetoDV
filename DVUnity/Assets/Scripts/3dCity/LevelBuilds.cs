@@ -37,6 +37,9 @@ public class LevelBuilds : ScriptableObject
         [SerializeField] Sprite iconProduction;
 
 
+        [SerializeField] private bool isTownHall = false;
+
+
         public event UnityAction OnBuildLevelChanged;
    
 
@@ -165,7 +168,9 @@ public class LevelBuilds : ScriptableObject
         return this.iconProduction;
     }
 
-
+    public bool isTownHallBuild(){
+        return this.isTownHall;
+    }
 
 
 }

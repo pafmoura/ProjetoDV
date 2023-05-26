@@ -47,8 +47,10 @@ public class CanvasBuildScript : MonoBehaviour
     {    
 
         LevelBuilds levelBuilds = whatEvolveBuildIs(name).getLevelBuilds();
-        areResourcesUnsuficient(levelBuilds);
 
+        if(checkCanEvolve(levelBuilds)){
+        areResourcesUnsuficient(levelBuilds);
+        }
        canvasResourcesProductionScript.isProductionBuilding(levelBuilds);
 
         this.description.text = levelBuilds.getDescription().ToString();
@@ -115,6 +117,7 @@ public class CanvasBuildScript : MonoBehaviour
             buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
             }      
         else if(!levelBuilds.canUpgrade()){ // se nao tiver recursos suficientes
+            notEnoughResources.text = "Recursos Insuficientes";
             notEnoughResources.gameObject.SetActive(true);
             buttonEvolveBuild.interactable = false;
             buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
@@ -125,4 +128,56 @@ public class CanvasBuildScript : MonoBehaviour
             buttonEvolveBuild.GetComponent<Image>().color = Color.white;
          }
     }
+
+    private bool checkCanEvolve(LevelBuilds levelBuilds){
+        
+        if(levelBuilds.isTownHallBuild()){
+            if(!townHallCanUpgrade(levelBuilds)){
+                notEnoughResources.text= "First Evolve the others buildings";
+                notEnoughResources.gameObject.SetActive(true);
+                buttonEvolveBuild.interactable = false;
+                buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
+                return false;
+            }
+            Debug.Log("TownHall");
+        }else if(levelBuilds.getNumberLevel() > buildTownHall.getLevelBuilds().getNumberLevel()){ // se o nivel do edificio for maior que o do townhall
+            notEnoughResources.text= "First Evolve the TownHall";
+            notEnoughResources.gameObject.SetActive(true);
+            buttonEvolveBuild.interactable = false;
+            buttonEvolveBuild.GetComponent<Image>().color = Color.gray;
+            return false;
+        }
+        return true;
+    }
+
+    private bool townHallCanUpgrade(LevelBuilds townhall){
+
+        if(townhall.getNumberLevel() == 3){
+            return true;
+        }
+
+
+        if(buildFarm.getLevelBuilds().getNumberLevel() <= townhall.getNumberLevel()){
+            return false;
+        }else if(   buildWood.getLevelBuilds().getNumberLevel() <= townhall.getNumberLevel()){
+            return false;
+        }else if(   buildRock.getLevelBuilds().getNumberLevel() <= townhall.getNumberLevel()){
+            return false;
+        }else if(   buildPort.getLevelBuilds().getNumberLevel() <= townhall.getNumberLevel()){
+            return false;
+        }else if(   buildQuartel.getLevelBuilds().getNumberLevel() <= townhall.getNumberLevel()){
+            return false;
+        }else if(   buildMarket.getLevelBuilds().getNumberLevel() <= townhall.getNumberLevel()){
+            return false;
+        }else{
+            return true;
+        }
+
+
+    
+
+    }
+
+
+
 }
