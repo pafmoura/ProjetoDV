@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b652d7b7c3fd53c49ae23a738d05af66, type: 3}
+  m_Name: TroopManager
+  m_EditorClassIdentifier: 
+  maxTroopBig: 10
+  maxTroopLittle: 20
+  currentTroopBig: 99969
+  currentTroopLittle: 999706
+  multiplierCost: 3
+  defaultCostWoodBig: 200
+  defaultCostRockBig: 200
+  defaultCostFoodBig: 200
+  defaultCostWoodLittle: 100
+  defaultCostRockLittle: 100
+  defaultCostFoodLittle: 100
+  townHall: {fileID: 11400000, guid: 8fcaf2e342357cd468c205dc4e7fe7e4, type: 2}
+  resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}

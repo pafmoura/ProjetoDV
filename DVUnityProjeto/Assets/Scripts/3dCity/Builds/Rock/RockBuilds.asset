@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
+  m_Name: RockBuilds
+  m_EditorClassIdentifier: 
+  level: 3
+  level1: {fileID: 3186392922703294952, guid: b429929aa6eaed040b99feaaebfcc588, type: 3}
+  level2: {fileID: 4343355503809867419, guid: 1ce12b7fe48010c4e811cdae5d91cd34, type: 3}
+  level3: {fileID: 1751726614216138087, guid: 77e0e3e3876cbc14ea43e6807d603a66, type: 3}
+  foodLevel2: 100
+  rockLevel2: 100
+  woodLevel2: 100
+  foodLevel3: 100
+  rockLevel3: 100
+  woodLevel3: 100
+  resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
+  description: "esta \xE9 a mina"
+  buildName: Mina
+  image: {fileID: 21300000, guid: a3a72260e331f7d4eb8b7a29b7b81c80, type: 3}
+  iconProduction: {fileID: 21300000, guid: a3a72260e331f7d4eb8b7a29b7b81c80, type: 3}
