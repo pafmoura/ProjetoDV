@@ -27,7 +27,7 @@ public class SaveTroops : MonoBehaviour
 
 
 
-    private void saveTroops(){
+    public void saveTroops(){
         TroopsNumber troops = new TroopsNumber();
         troops.currentTroopBig= troopsManager.getCurrentTroopBig();
         troops.currentTroopLittle= troopsManager.getCurrentTroopLittle();

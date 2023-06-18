@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class FunctionsButtonsEvolve : MonoBehaviour
 {
     
@@ -17,8 +18,23 @@ public class FunctionsButtonsEvolve : MonoBehaviour
 
     [SerializeField] private CanvasBuildScript canvasBuildScript; //script to manage the canvas of the build
 
+
+    [SerializeField] private SaveAll saveAllScript;
+
     public void buttonEvolveBuild()
     {   
+
+        //if is townhall, nedd to goo to the battle
+        if(levelBuilds.isTownHallBuild()){
+            //go to the battle
+            levelBuilds.UpgradeLevelResources();
+            saveAllScript.saveAll();
+            SceneManager.LoadScene("Battle");
+            return;
+
+        }
+        
+
         //function to evolve the build
         //this will be changed for calling a funtion of the levelbuilds scriptable object that says how much resources are needed to upgrade the build 
         if(levelBuilds.UpgradeLevelResources()){

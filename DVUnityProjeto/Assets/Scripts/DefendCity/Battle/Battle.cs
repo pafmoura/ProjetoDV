@@ -22,6 +22,11 @@ public class Battle : MonoBehaviour
 
     private bool isBattleStarted = false;
 
+    private bool isBattleFinished = false;
+
+
+    [SerializeField] private SaveGameBattle SaveGameBattle;
+
     void Awake(){
         
         buttonStart.interactable = true;
@@ -56,23 +61,28 @@ public class Battle : MonoBehaviour
     //if all enemys are dead, the player wins
     void Update()
     {
-        if(isBattleStarted){
+        if(isBattleStarted && !isBattleFinished){
             if (countEnemys() == 0)
             {
+                isBattleFinished = true;
                 Debug.Log("You win!");
                 townHall.upgradelevel();
                 imageWinLose.sprite = imageWin;
                 canvasWinLose.SetActive(true);
                 Time.timeScale = 0;
+                SaveGameBattle.saveAll();
             }
 
             if (countAllys() == 0)
             {
+                isBattleFinished = true;
                 Debug.Log("You lose!");
                 imageWinLose.sprite = imageLose;
+                SaveGameBattle.saveAll();
                 canvasWinLose.SetActive(true);
-                
                 Time.timeScale = 0;
+
+                
             }
         }
     }

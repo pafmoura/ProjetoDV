@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Village Level1.unity
+    path: Assets/Village Level.unity
     guid: 29b422e77e64e5a4c886d3daee30132c
   - enabled: 1
     path: Assets/Scenes/NiveisCampanha/Nivel1.unity
@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NiveisCampanha/Nivel2.unity
     guid: eb368cc68f0a028459d874ef32f9526f
+  - enabled: 1
+    path: Assets/Battle.unity
+    guid: b6ac9460c1f13f34b9cea85d6266c4b4
   m_configObjects: {}
