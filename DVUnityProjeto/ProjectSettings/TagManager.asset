@@ -12,6 +12,7 @@ TagManager:
   - EnemyTroop
   - DefendingTroop
   - AllyWarrior
+  - skeg
   layers:
   - Default
   - TransparentFX

@@ -46,7 +46,7 @@ void OnTriggerEnter2D(Collider2D other)
 {
 
     // verifica se o personagem colidiu com um objeto com a tag "ground"
-    if (other.gameObject.CompareTag("Ground"))
+    if (other.gameObject.CompareTag("skeg"))
     {
         Debug.Log("colidiu");
         
