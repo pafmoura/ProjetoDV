@@ -42,6 +42,8 @@ public class CanvasBuildScript : MonoBehaviour
     [SerializeField] private CanvasResourcesProduction canvasResourcesProductionScript;
 
     [SerializeField] private CanvasQuartel canvasQuartelScript;
+    [SerializeField] private CanvasPort canvasPortScript;
+    [SerializeField] private CanvasMarket canvasMarketScript; 
    
 
     public void enableCanvas(string name)
@@ -52,8 +54,11 @@ public class CanvasBuildScript : MonoBehaviour
         if(checkCanEvolve(levelBuilds)){
         areResourcesUnsuficient(levelBuilds);
         }
+        //this is to know what to show in the canvas
        canvasResourcesProductionScript.isProductionBuilding(levelBuilds);
-         canvasQuartelScript.isQuartel(levelBuilds);
+        canvasQuartelScript.isQuartel(levelBuilds);
+        canvasPortScript.isPortBuild(levelBuilds);
+        canvasMarketScript.isMarketBuild(levelBuilds);
 
         this.description.text = levelBuilds.getDescription().ToString();
         this.level.text = levelBuilds.getNumberLevel().ToString();

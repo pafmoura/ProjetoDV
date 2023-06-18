@@ -24,4 +24,7 @@ MonoBehaviour:
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
   description: 
-  buildName: 
+  buildName: Porto
+  image: {fileID: 0}
+  iconProduction: {fileID: 0}
+  isTownHall: 0

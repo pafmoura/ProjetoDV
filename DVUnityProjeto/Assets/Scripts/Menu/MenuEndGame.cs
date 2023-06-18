@@ -10,7 +10,7 @@ public class MenuEndGame : MonoBehaviour
 
     public void exitGame(){
         Debug.Log("Continue Game");
-        SceneManager.LoadSceneAsync("Village Level1");
+        SceneManager.LoadSceneAsync("Village Level");
     }
 
     public void restartGame(){

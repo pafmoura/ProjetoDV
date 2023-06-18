@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: MarketBuilds
   m_EditorClassIdentifier: 
-  level: 1
+  level: 2
   level1: {fileID: 6793056689714187137, guid: acf93fd418e88a84ea2707a542261b71, type: 3}
   level2: {fileID: 9193739693611633092, guid: 9ca01a4925fb1c1428cfd48ac3a56548, type: 3}
   level3: {fileID: 8418136750882340393, guid: cedf780b285b0d1478d45458dd1aeae0, type: 3}
@@ -24,6 +24,7 @@ MonoBehaviour:
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
   description: 
-  buildName: 
+  buildName: Mercado
   image: {fileID: 0}
   iconProduction: {fileID: 0}
+  isTownHall: 0
