@@ -116,8 +116,8 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/DVProjeto/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/DVProjeto/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -322,6 +322,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
@@ -418,6 +422,7 @@
 "Assets/Scripts/SaveGame/SaveAll.cs"
 "Assets/Scripts/Timer/Timer.cs"
 "Assets/SpawnWarrior.cs"
+"Assets/waterDamage.cs"
 -langversion:9.0
 
 /deterministic

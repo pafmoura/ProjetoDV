@@ -113,9 +113,9 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"C:/Escola/Projeto-Dv/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/DVProjeto/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/DVProjeto/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/DVProjeto/ProjetoDV/DVUnityProjeto/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -200,6 +200,13 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"

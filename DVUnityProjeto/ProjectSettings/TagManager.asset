@@ -13,6 +13,7 @@ TagManager:
   - DefendingTroop
   - AllyWarrior
   - skeg
+  - water
   layers:
   - Default
   - TransparentFX

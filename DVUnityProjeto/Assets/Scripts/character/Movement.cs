@@ -89,4 +89,6 @@ public class Movement : MonoBehaviour
 
     }
 
+   public float getPlayerJumpPower() { return _jumpPower; }
+
 }
