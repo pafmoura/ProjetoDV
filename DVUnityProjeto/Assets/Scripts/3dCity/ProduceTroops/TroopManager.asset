@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b652d7b7c3fd53c49ae23a738d05af66, type: 3}
   m_Name: TroopManager
   m_EditorClassIdentifier: 
-  maxTroopBig: 30
-  maxTroopLittle: 40
-  currentTroopBig: 87
-  currentTroopLittle: 87
+  maxTroopBig: 50
+  maxTroopLittle: 60
+  currentTroopBig: 14
+  currentTroopLittle: 483
   multiplierCost: 3
   defaultCostWoodBig: 200
   defaultCostRockBig: 200
