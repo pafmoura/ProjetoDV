@@ -23,7 +23,9 @@ MonoBehaviour:
   rockLevel3: 100
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
-  description: "esta \xE9 a mina"
+  description: "\xC9 com o trabalho \xE1rduo dos mineiros de Seamoor que se produz
+    a pedra desta cidade, essencial na sua evolu\xE7\xE3o"
   buildName: Mina
-  image: {fileID: 21300000, guid: a3a72260e331f7d4eb8b7a29b7b81c80, type: 3}
+  image: {fileID: 21300000, guid: 500f26de531c6ef4fa7a9a1c49b0d414, type: 3}
   iconProduction: {fileID: 21300000, guid: a3a72260e331f7d4eb8b7a29b7b81c80, type: 3}
+  isTownHall: 0

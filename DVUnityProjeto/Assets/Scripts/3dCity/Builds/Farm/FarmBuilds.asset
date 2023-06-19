@@ -26,6 +26,6 @@ MonoBehaviour:
   description: "\xC9 na quinta que \xE9 produzida a comida que alimenta Seamoor!
     Este \xE9 um importante recurso, principalmente para a produ\xE7\xE3o de tropas"
   buildName: Quinta
-  image: {fileID: 21300000, guid: 990402083e2d7b144b9c3a3f40df2c4c, type: 3}
+  image: {fileID: 21300000, guid: 501ca7a7717d7fd459d8653465d8c11c, type: 3}
   iconProduction: {fileID: 21300000, guid: 990402083e2d7b144b9c3a3f40df2c4c, type: 3}
   isTownHall: 0

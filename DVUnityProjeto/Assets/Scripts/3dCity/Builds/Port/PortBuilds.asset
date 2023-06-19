@@ -23,8 +23,9 @@ MonoBehaviour:
   rockLevel3: 100
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
-  description: 
+  description: "Este \xE9 o Porto de Seamoor! Milhares de recursos chegam e partem
+    todos os dias. Utiliza este edif\xEDcio para acelerar o teu progresso"
   buildName: Porto
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: d5cadfe95f861fb4bbcf86882830a5ec, type: 3}
   iconProduction: {fileID: 0}
   isTownHall: 0
