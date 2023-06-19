@@ -3198,6 +3198,14 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7387639484329588976, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
       propertyPath: attackRadius
       value: 0.38
@@ -9452,11 +9460,23 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_Mass
+      value: 0.060998775
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
       propertyPath: m_BodyType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
       propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_UseFullKinematicContacts
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10531,8 +10551,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_Mass
+      value: 54.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
       propertyPath: m_BodyType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577396958941372399, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7387639484329588976, guid: 347b598220ba5b44ba687510e90eee41, type: 3}
       propertyPath: attackRadius

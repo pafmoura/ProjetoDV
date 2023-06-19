@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -29,8 +30,11 @@ public class Enemy : MonoBehaviour
     private float lastAttackTime = 0f; // tempo do último ataque
 
     private bool flipped;// inverte a imagem horizontalmente ao mudar de direção
+    float ypos;
+
     void Start()
     {
+        ypos=transform.position.y;
         damage= enemysInfo.getDamage();
         life= enemysInfo.getMaxHealth();
         animator= GetComponent<Animator>();
@@ -52,7 +56,9 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(life <= 0){
+        //transform.position = new Vector3(transform.position.x, 458.974f, transform.position.z);
+       //transform.position = new Vector3(transform.position.x, ypos, transform.position.z);
+        if (life <= 0){
           //use animation to destroy
             if(!isDead){
             animator.SetTrigger("TriggerIsDead");
@@ -90,7 +96,7 @@ public class Enemy : MonoBehaviour
                     spriteRenderer.flipX = !spriteRenderer.flipX;
                     flipped=false;
                 }	
-                
+
 
             }
 
@@ -108,13 +114,14 @@ public class Enemy : MonoBehaviour
     }
 
     private void Attack(){
-           // inverte a imagem horizontalmente ao mudar de direção
-        
-        if(player.transform.position.x < transform.position.x && !flipped && !spriteRenderer.flipX){
+        // inverte a imagem horizontalmente ao mudar de direção
+
+        transform.position = new Vector3(transform.position.x, ypos, transform.position.z);
+        if (player.transform.position.x > transform.position.x && !flipped && !spriteRenderer.flipX){
             Debug.Log("Flip");
         spriteRenderer.flipX = !spriteRenderer.flipX;
         flipped=true;
-        }else if(player.transform.position.x > transform.position.x && !flipped && spriteRenderer.flipX){
+        }else if(player.transform.position.x < transform.position.x && !flipped && spriteRenderer.flipX){
             Debug.Log("Flip");
         spriteRenderer.flipX = !spriteRenderer.flipX;
         flipped=true;
