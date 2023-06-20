@@ -2792,6 +2792,51 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.920166, y: 0.19421387}
   m_EdgeRadius: 0.01
+--- !u!1 &396507236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396507238}
+  - component: {fileID: 396507237}
+  m_Layer: 0
+  m_Name: SaveGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &396507237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396507236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a75334f68cc764498870dca2969aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  games2dManager: {fileID: 11400000, guid: da3bca6f73f8a3a4ca55efc474361b01, type: 2}
+--- !u!4 &396507238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396507236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1002, y: 581.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415859237
 GameObject:
   m_ObjectHideFlags: 0
@@ -9557,6 +9602,7 @@ MonoBehaviour:
   NumberOfResources: {fileID: 1557390896}
   sendResourcesWon: {fileID: 31486015}
   games2dManager: {fileID: 11400000, guid: da3bca6f73f8a3a4ca55efc474361b01, type: 2}
+  saveLevelsCompleted: {fileID: 396507237}
 --- !u!114 &1972346522
 MonoBehaviour:
   m_ObjectHideFlags: 0

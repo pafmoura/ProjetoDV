@@ -39,12 +39,12 @@ public class SaveLevelsCompleted : MonoBehaviour
     }
 
     public void loadLevel2dFormJson(){
-       /* if(File.Exists(Application.dataPath + "/SaveData/LevelsCompleted.json")){
+        if(File.Exists(Application.dataPath + "/SaveData/LevelsCompleted.json")){
             SaveGame2d saveData= LoadFromJson<SaveGame2d>(Application.dataPath + "/SaveData/LevelsCompleted.json");
             games2dManager.setLevelComplete(saveData.levelComplete);
         }else {
             inicialLevel();
-        }*/
+        }
     }
 
 

@@ -16,6 +16,8 @@ public class WinLoseLevel : MonoBehaviour
 
     [SerializeField] private Games2dManager games2dManager;
 
+    // to save the level completed
+    [SerializeField] private SaveLevelsCompleted saveLevelsCompleted;
 
     public void WinGame(int resources, Texture image, string textResources, string nameOfResource){
         rawImage.texture = image;
@@ -30,6 +32,9 @@ public class WinLoseLevel : MonoBehaviour
 
         //complete the level
         games2dManager.completeLevel();
+
+        //save the level completed
+        saveLevelsCompleted.saveLevelsCompleted();
 
         //disable the player
         gameObject.SetActive(false);

@@ -23,6 +23,17 @@ public class Menu2DUI : MonoBehaviour
         
         int levelsComplete = games2dManager.getLevelComplete();
 
+        //if the player have completed all the levels, make the lock visible and the check invisible and not interactable
+        if(levelsComplete == locks.Length+1){
+            for(int i=0; i<locks.Length; i++){
+                locks[i].SetActive(false);
+                checks[i].SetActive(true);
+                levelsButtons[i].interactable = false;
+            }
+            return;
+        }
+
+
 
         for(int i=0; i<levelsComplete; i++){
 
