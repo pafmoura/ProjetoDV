@@ -25,7 +25,7 @@ MonoBehaviour:
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
   description: "O Centro de Vila \xE9 o principal edif\xEDcio de Seamoor.  \xC9 neste
     edif\xEDcio que se centram as autoridades que  comandam esta vila. "
-  buildName: Town Hall
+  buildName: Centro
   image: {fileID: 21300000, guid: f45a9349e6d9c0e4ba7c64bff8a4930e, type: 3}
   iconProduction: {fileID: 0}
   isTownHall: 1

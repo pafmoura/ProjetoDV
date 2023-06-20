@@ -1,0 +1,595 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684141067741176, "dur": 1889010, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684141067741862, "dur": 30233, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684141067772098, "dur": 1846944, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684141069619046, "dur": 11139, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684141069631307, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684141067889685, "dur":2565, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141067892268, "dur":274, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684141067892575, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684141067892611, "dur":303, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684141067892957, "dur":1417, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141067894374, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069519949, "dur":99, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520049, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520084, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520090, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520114, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520117, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520144, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520147, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520160, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520199, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069520235, "dur":4704, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684141067899592, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067899592, "dur":15741, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067915348, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684141067915358, "dur":487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067915850, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684141067915853, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067915917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067917594, "dur":8809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684141067926409, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684141067926572, "dur":776, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067927358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067927372, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684141067931628, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684141067931757, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067931858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067932167, "dur":17986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684141067950209, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684141067950361, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067950402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067950534, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684141067955535, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1684141067955715, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067955774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067955790, "dur":9650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1684141067965499, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141067965662, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067965714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141067965800, "dur":47606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068013468, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068013598, "dur":7030, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068020644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068020659, "dur":65045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068085782, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068085906, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068085956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068085969, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068090535, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068090668, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068090721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068090737, "dur":5465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068096250, "dur":18768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068115019, "dur":25040, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068140323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068140341, "dur":57223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068197619, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068197755, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068197812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068197827, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068200047, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068200167, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068200273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068200325, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068203944, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068204072, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068204435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068204488, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068207345, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068207638, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068207709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068207723, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068210980, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068211097, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068211148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068211162, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068213536, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068213645, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068213697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068213708, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068216396, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068216455, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068216509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068216523, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068218499, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068218649, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068218931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068218994, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068221248, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068221341, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068221400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068221412, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068223772, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068223960, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068224040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068224057, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068226037, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068226218, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068226336, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068226359, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068228772, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068228890, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068228944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068228958, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068230963, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068231090, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068231145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068231201, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068233339, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068233469, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068233527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068233543, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068237541, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068237666, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068237718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068237733, "dur":8145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068245932, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068246070, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068246129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068246144, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068249665, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068249718, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068249774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068249789, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068251668, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068251808, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068251868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068251883, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068253805, "dur":216129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068469935, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068470037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068470067, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068471803, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068471924, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068471987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141068472003, "dur":69179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141068541244, "dur":580614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141069121859, "dur":63115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069184991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069185011, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141069186841, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141069187011, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069187075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069187092, "dur":9589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684141069196738, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1684141069197066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069197249, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1684141069199436, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069199492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069199518, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069201412, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069201471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069201484, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069202992, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069203047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069203075, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069205231, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069205327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069205341, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069206962, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069207021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069207034, "dur":21832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069228914, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069229019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069229032, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069234348, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1684141069234510, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069234574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069234587, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1684141069237912, "dur":3261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1684141069241174, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069241258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069241282, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1684141069242591, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069243240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069243254, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069245205, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069245257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069245307, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069246838, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069246908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069246919, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069248252, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1684141069248304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069248316, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1684141069249714, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069249769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069249781, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069251022, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1684141069251078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069251091, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1684141069252553, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069252640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069252653, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684141069254560, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1684141069254697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069254710, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1684141069257636, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069257691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069257705, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684141069259521, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1684141069259571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069259583, "dur":84146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1684141069343775, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684141069343931, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069343984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684141069343996, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684141069345658, "dur":174282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067899593, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067899594, "dur":15895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067915490, "dur":5651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684141067921141, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067921205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067921299, "dur":9632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684141067930990, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684141067931172, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067931251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067932110, "dur":15563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684141067947728, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684141067947869, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067947950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067948519, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684141067953210, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684141067953357, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067953685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067953702, "dur":13061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684141067966822, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141067966981, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067967024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141067967036, "dur":129148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068096240, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068096418, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068096482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068096497, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068099708, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068099824, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068100121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068100136, "dur":4297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068104490, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068104606, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068104659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068104672, "dur":11061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068116037, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068116194, "dur":38414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068154669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068154686, "dur":45652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068200388, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068200500, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068201017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068201031, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068204160, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068204261, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068204315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068204329, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068207071, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068207199, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068207252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068207265, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068209204, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068209317, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068209370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068209385, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068211690, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068211809, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068212209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068212224, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068213990, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068214090, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068214610, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068214649, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068217789, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068218121, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068218188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068218203, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068220733, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068220852, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068221050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068221065, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068223772, "dur":1255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068225028, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068225341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068225356, "dur":100961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068326488, "dur":481480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068807969, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068808075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068808093, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068810692, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068810885, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068810953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068810968, "dur":113726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068924751, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068924906, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068924974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068924988, "dur":6692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068931733, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068931854, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068931919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068931934, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068933613, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068933733, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068933825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068933841, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068935946, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068936067, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068936119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068936133, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068938245, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068938359, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068938411, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068938432, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068942122, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068942265, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068942321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068942336, "dur":4072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068946455, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068946584, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068946669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068946684, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068948517, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068948648, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068948701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068948716, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068950302, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068950425, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068950474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068950489, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068952282, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068952407, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068952476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068952490, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068954111, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068954235, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068954322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068954337, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068957413, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068957529, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068957603, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068957623, "dur":7079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068964761, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068964904, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068964994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068965013, "dur":4875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068969942, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068970064, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068970119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068970134, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068972047, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068972168, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068972270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068972464, "dur":6234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068978751, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068978892, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068978947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068978962, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068980897, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068981032, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068981089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068981104, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068985143, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141068985281, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068985349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141068985364, "dur":203550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141069188977, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141069189122, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141069189186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141069189205, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141069192152, "dur":325884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141069518037, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141069518148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684141069518168, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684141069519778, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1684141069519780, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067899612, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067899612, "dur":15728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067915372, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684141067915551, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067915765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067918610, "dur":7973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684141067926692, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1684141067926930, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067926977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067926992, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1684141067931013, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684141067931490, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067931695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067932051, "dur":14933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684141067947037, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684141067947182, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067947228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067947245, "dur":4540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684141067951842, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1684141067951997, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067952173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067952190, "dur":9194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1684141067961465, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141067961682, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067961751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067962025, "dur":14316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141067976416, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity.exe" }}
+,{ "pid":12345, "tid":3, "ts":1684141067976471, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067976520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067976615, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity.exe" }}
+,{ "pid":12345, "tid":3, "ts":1684141067978623, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1684141067978848, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067978924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141067980677, "dur":35742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1684141068016515, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068016661, "dur":4111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068020783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068020796, "dur":63820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068084672, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068084781, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068085676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068085693, "dur":5417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068091158, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068091272, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068091448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068091462, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068096603, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068096712, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068096763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068096775, "dur":4417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068101248, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068101377, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068101496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068101510, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068104904, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068105010, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068105491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068105504, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068107161, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068107314, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068107370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068107384, "dur":91667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068199111, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068199248, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068199465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068199481, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068202688, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068202816, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068202873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068202888, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068205776, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068205912, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068206137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068206153, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068209331, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068209449, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068209500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068209519, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068211181, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068211285, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068211338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068211350, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068213491, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068213623, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068213689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068213703, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068216284, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068216557, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068216641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068216655, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068218519, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068218649, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068218989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068219002, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068221229, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068221341, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068221437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068221449, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068224515, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068224683, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068224827, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068224850, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068226668, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068226814, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068226891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068226905, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068228885, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068229011, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068229099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068229126, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068231119, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068231245, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068231312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068231326, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068233362, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068233472, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068233525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068233540, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068236294, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068236471, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068236538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068236554, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068238765, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068238877, "dur":1419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068240311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068240327, "dur":7386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068247766, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068247910, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068247963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068247978, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068249985, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068250119, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068250539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068250553, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068252345, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068252460, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068252618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068252633, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068254380, "dur":453705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068708087, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068708189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141068708206, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141068710808, "dur":678385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141069389194, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141069389298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684141069389315, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684141069391166, "dur":128663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067899628, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067899628, "dur":15709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067915356, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1684141067915669, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067915934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067918867, "dur":10092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1684141067929022, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684141067929184, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067929237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067929254, "dur":16508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684141067945821, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684141067945982, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067946030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067946047, "dur":4257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684141067950353, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684141067950477, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067950516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067950574, "dur":7493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684141067958127, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1684141067958273, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067958319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067958334, "dur":9062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1684141067967701, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1684141067968213, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067968337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067968350, "dur":24149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1684141067992553, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141067992685, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067992747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067992964, "dur":5323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141067998337, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141067998475, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067998526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141067998713, "dur":13873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068012656, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068013055, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068013116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068013132, "dur":71398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068084619, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068084784, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068085687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068085701, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068092415, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068092553, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068092641, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068092662, "dur":5449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068098170, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068098290, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068098340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068098354, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068102390, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068102502, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068102597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141068102610, "dur":70137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141068172820, "dur":1328984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141069501805, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141069501907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684141069501924, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive - Instituto Politcnico de Setbal/Ambiente de Trabalho/dv teste/DVUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684141069503550, "dur":16249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684141069528115, "dur":4569, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684141069634551, "dur": 1546, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684141069631285, "dur": 4854, "ph": "X", "name": "Write chrome-trace events", "args": {} },

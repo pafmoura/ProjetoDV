@@ -1,4 +1,5 @@
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
+-a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Unity.Recorder.Base.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
@@ -6,6 +7,7 @@
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\UnityEngine.UI.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Unity.VisualScripting.State.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Unity.VisualScripting.Core.dll"
+-a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PlayerScriptAssemblies\Unity.Recorder.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll"
 -a="C:\Escola\Projeto-Dv\ProjetoDV\DVUnityProjeto\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll"

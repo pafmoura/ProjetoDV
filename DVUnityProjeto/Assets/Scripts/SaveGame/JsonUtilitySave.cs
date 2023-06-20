@@ -20,6 +20,8 @@ public class JsonUtilitySave : MonoBehaviour
     [SerializeField] private SaveProductionOffline saveProductionOffline;
 
     [SerializeField] private SaveTroops saveTroops;
+    
+    [SerializeField] private SaveLevelsCompleted saveLevelsCompleted;
 
     //guardar os niveis que já se fez no 2d game
 
@@ -60,6 +62,8 @@ public class JsonUtilitySave : MonoBehaviour
 
 
        saveTroops.loadTroops();
+
+       saveLevelsCompleted.loadLevel2dFormJson();
     }
 
     private void inicialBuilds(){

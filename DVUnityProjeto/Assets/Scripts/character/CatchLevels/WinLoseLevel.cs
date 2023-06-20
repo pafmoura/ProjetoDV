@@ -14,6 +14,8 @@ public class WinLoseLevel : MonoBehaviour
     
     [SerializeField] private SendResourcesWon sendResourcesWon;
 
+    [SerializeField] private Games2dManager games2dManager;
+
 
     public void WinGame(int resources, Texture image, string textResources, string nameOfResource){
         rawImage.texture = image;
@@ -25,6 +27,9 @@ public class WinLoseLevel : MonoBehaviour
         //send the resources to the village
         sendResourcesWon.sendResources(resources, nameOfResource);
 
+
+        //complete the level
+        games2dManager.completeLevel();
 
         //disable the player
         gameObject.SetActive(false);

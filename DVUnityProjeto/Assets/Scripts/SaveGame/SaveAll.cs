@@ -10,9 +10,12 @@ public class SaveAll : MonoBehaviour
 
     [SerializeField] private JsonUtilitySave jsonUtilitySave;
 
+    [SerializeField] private SaveLevelsCompleted saveLevelsCompleted;
+
     public void saveAll(){
         saveProductionOffline.saveAll();
         saveTroops.saveTroops();
         jsonUtilitySave.saveAll();
+        saveLevelsCompleted.saveLevelsCompleted();
     }
 }

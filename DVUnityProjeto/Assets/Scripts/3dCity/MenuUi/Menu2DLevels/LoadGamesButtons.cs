@@ -13,12 +13,18 @@ public class LoadGamesButtons : MonoBehaviour
     [SerializeField] private JsonUtilitySave buildsAndResources;
     [SerializeField] private SaveProductionOffline productionOffline;
 
+    [SerializeField] private SaveAll saveAll;
+
 
 
     public void loadLevel2d(int numberLevel){
 
         buildsAndResources.saveAll();
         productionOffline.saveAll();
+
+        saveAll.saveAll();
+
+
 
             //Load the scene of the game
         SceneManager.LoadScene("Nivel"+numberLevel);

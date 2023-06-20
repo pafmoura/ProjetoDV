@@ -3370,6 +3370,7 @@ MonoBehaviour:
   rawImage: {fileID: 1781246654}
   NumberOfResources: {fileID: 1557390896}
   sendResourcesWon: {fileID: 31486015}
+  games2dManager: {fileID: 11400000, guid: da3bca6f73f8a3a4ca55efc474361b01, type: 2}
 --- !u!114 &1972346522
 MonoBehaviour:
   m_ObjectHideFlags: 0
