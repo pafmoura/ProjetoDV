@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc95acb0f0ebd8c44b772ab6b39be0fc, type: 3}
   m_Name: Games2dManager
   m_EditorClassIdentifier: 
-  levelComplete: 2
+  levelComplete: 5

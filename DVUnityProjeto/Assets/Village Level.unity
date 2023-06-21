@@ -12716,7 +12716,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1138449952}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1096822752}
+        m_TargetAssemblyTypeName: LoadGamesButtons, Assembly-CSharp
+        m_MethodName: loadLevel2d
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1138449952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13199,8 +13211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.123474, y: -22.782104}
-  m_SizeDelta: {x: 464.9015, y: 79.92279}
+  m_AnchoredPosition: {x: -117.56677, y: -9.735893}
+  m_SizeDelta: {x: 162.9454, y: 78.6283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1196739603
 MonoBehaviour:
@@ -13215,7 +13227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78039217}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13506,7 +13518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -109, y: 0}
   m_SizeDelta: {x: 386.4729, y: 145.9034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230946803
@@ -13531,15 +13543,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Evolua o Quartel para o n\xEDvel 2!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fa906108e61ee40449aa256acfe0159c, type: 2}
+  m_sharedMaterial: {fileID: 917240924409283525, guid: fa906108e61ee40449aa256acfe0159c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280914670
+  m_fontColor: {r: 0.9333334, g: 0.57254905, b: 0.16078432, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -22653,7 +22665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11}
+  m_AnchoredPosition: {x: -114, y: -170}
   m_SizeDelta: {x: 386.4729, y: 145.9034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1844252920
@@ -26816,6 +26828,7 @@ MonoBehaviour:
   - {fileID: 1067504252}
   - {fileID: 824183502}
   - {fileID: 1138449951}
+  townHall: {fileID: 11400000, guid: 8fcaf2e342357cd468c205dc4e7fe7e4, type: 2}
 --- !u!1 &2122938004
 GameObject:
   m_ObjectHideFlags: 0

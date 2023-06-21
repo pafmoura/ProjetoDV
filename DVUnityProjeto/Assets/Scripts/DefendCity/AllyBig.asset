@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 318f11d9438c79149b27561d1c67ff8d, type: 3}
   m_Name: AllyBig
   m_EditorClassIdentifier: 
-  attackDamage: 10
-  movementSpeed: 2
-  inicialLife: 100
+  attackDamage: 30
+  movementSpeed: 250
+  inicialLife: 200
