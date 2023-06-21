@@ -25,6 +25,13 @@ public class JsonUtilitySave : MonoBehaviour
 
     //guardar os niveis que já se fez no 2d game
 
+
+
+
+    // to save if the player already saw the dialog
+    // if not, then we need to show the dialog
+    [SerializeField] private FirstTimeOpenGame firstTimeOpenGame;
+
    public static void SaveToJson<T>(T data, string filePath)
     {
         string json = JsonUtility.ToJson(data);
@@ -47,6 +54,9 @@ public class JsonUtilitySave : MonoBehaviour
         }else{
             //create file
             inicialBuilds();
+
+            //if it's the first time open the game, show the dialog
+            firstTimeOpenGame.isTheFirstTimeOpenGame();
         }
 
         //resources
