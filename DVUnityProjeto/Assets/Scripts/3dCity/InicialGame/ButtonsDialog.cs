@@ -9,8 +9,7 @@ public class ButtonsDialog : MonoBehaviour
     [SerializeField] private CanvasDialog canvasDialog;
     public void doNextDialog()
     {
-        
-        canvasDialog.NextDialog();
+       canvasDialog.NextDialog();
         
         
         

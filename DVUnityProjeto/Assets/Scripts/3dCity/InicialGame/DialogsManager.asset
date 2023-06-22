@@ -13,8 +13,30 @@ MonoBehaviour:
   m_Name: DialogsManager
   m_EditorClassIdentifier: 
   dialogs:
-  - dialog: Texto 1
-    sprite: {fileID: 0}
-  - dialog: Texto2
-    sprite: {fileID: 0}
-  index: 1
+  - dialog: 'This is Seamoor. The village has already awoken to a new day, and with
+      it, its people rise up hopeful, welcoming their hero. '
+    sprite: {fileID: 21300000, guid: c506f97fb4f8ab845b423a078b1bcb1d, type: 3}
+  - dialog: Seamoor is governed by the production of 3 resources, Wood, Stone and
+      Food. These are essential to the maintenance and evolution of the village,
+      and are produced through the following structures.
+    sprite: {fileID: 21300000, guid: c506f97fb4f8ab845b423a078b1bcb1d, type: 3}
+  - dialog: 'The production of resources/h can be consulted on the internal page
+      of each building, and this will increase with the development of the village,
+      through evolutions. '
+    sprite: {fileID: 21300000, guid: c506f97fb4f8ab845b423a078b1bcb1d, type: 3}
+  - dialog: To make up for the difficulties in producing certain resources, Seamoor
+      uses its sea connection to trade with the outside world. At the market, you
+      can trade different types of resources.
+    sprite: {fileID: 21300000, guid: c506f97fb4f8ab845b423a078b1bcb1d, type: 3}
+  - dialog: The Town Hall is the main building where the town's command authorities
+      are located.   It has 3 distinct levels, and marks the evolution of Seamoor.
+    sprite: {fileID: 21300000, guid: 537bfd880b8729c4b82e485188b34abe, type: 3}
+  - dialog: Sound easy? Also note that with each upgrade of the village centre, enemy
+      soldiers will come and attack Seamoor to prevent your upgrade. Use the barracks
+      to produce troops and prepare for these attacks.
+    sprite: {fileID: 21300000, guid: 537bfd880b8729c4b82e485188b34abe, type: 3}
+  - dialog: The action isn't only in Seamoor... Using the arrow below, you can join
+      the campaign, and with it, gain resources to accelerate the evolution of the
+      village.
+    sprite: {fileID: 21300000, guid: c506f97fb4f8ab845b423a078b1bcb1d, type: 3}
+  index: 0
