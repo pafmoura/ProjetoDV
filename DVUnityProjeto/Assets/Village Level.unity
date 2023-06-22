@@ -3454,6 +3454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 582225034}
+  canvasDialog: {fileID: 288397521}
 --- !u!1 &315272142
 GameObject:
   m_ObjectHideFlags: 0
@@ -4935,7 +4936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 727a73279ad5a7d48b75c19520ade742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasDialog: {fileID: 288397521}
   inicialTrailer: {fileID: 298014765}
 --- !u!1 &508735195
 GameObject:
@@ -25801,7 +25801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2004827690
 RectTransform:
   m_ObjectHideFlags: 0

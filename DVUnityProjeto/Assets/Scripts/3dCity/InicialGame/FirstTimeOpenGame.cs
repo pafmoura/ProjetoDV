@@ -10,13 +10,12 @@ public class FirstTimeOpenGame : MonoBehaviour
     // so we need to show the dialog
 
 
-   [SerializeField] private CanvasDialog canvasDialog;
 
 
     [SerializeField] private InicialTrailer inicialTrailer;
 
    public void isTheFirstTimeOpenGame(){
-       canvasDialog.ShowDialog();
+
        inicialTrailer.playTrailer();
 
 

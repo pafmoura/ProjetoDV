@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ca41e93adfd5584091585bdc4a9fc90, type: 3}
   m_Name: ResourcesManager
   m_EditorClassIdentifier: 
-  wood: 1066650
-  rock: 701232485
-  food: 1282525
+  wood: 85
+  rock: 85
+  food: 85

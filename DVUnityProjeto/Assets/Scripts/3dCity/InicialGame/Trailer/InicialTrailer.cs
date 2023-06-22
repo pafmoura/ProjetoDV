@@ -8,6 +8,7 @@ public class InicialTrailer : MonoBehaviour
     [SerializeField] private VideoPlayer videoPlayer;
 
 
+   [SerializeField] private CanvasDialog canvasDialog;
 
     void Start(){
         videoPlayer.loopPointReached += EndReached;
@@ -25,6 +26,8 @@ public class InicialTrailer : MonoBehaviour
         gameObject.SetActive(false);
         videoPlayer.Stop();
         Time.timeScale = 1;
+        
+        canvasDialog.ShowDialog();
     }
 
 

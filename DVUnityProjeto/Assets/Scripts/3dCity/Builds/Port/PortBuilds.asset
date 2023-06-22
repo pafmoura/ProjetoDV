@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: PortBuilds
   m_EditorClassIdentifier: 
-  level: 3
+  level: 2
   level1: {fileID: 1854441605540412432, guid: 0dd1d920dbe50924d9ea697c4ed4ed74, type: 3}
   level2: {fileID: 7971464313039825920, guid: e97b15462b904d04dabb7ec73ed02298, type: 3}
   level3: {fileID: 548153276014356482, guid: 142141aada9c30d4fbf9f700798c54ea, type: 3}
@@ -25,7 +25,7 @@ MonoBehaviour:
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
   description: "Este \xE9 o Porto de Seamoor! Milhares de recursos chegam e partem
     todos os dias. Utiliza este edif\xEDcio para acelerar o teu progresso"
-  buildName: Porto
+  buildName: Dock
   image: {fileID: 21300000, guid: d5cadfe95f861fb4bbcf86882830a5ec, type: 3}
   iconProduction: {fileID: 0}
   isTownHall: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64721843e49bf849afd048173e7c7dd, type: 3}
   m_Name: TownHallBuild
   m_EditorClassIdentifier: 
-  level: 3
+  level: 1
   level1: {fileID: 2859979343240198339, guid: 85c08d369569ce644a11f8c92d1a5ec0, type: 3}
   level2: {fileID: 7604330669850222523, guid: 359aba840aa4d8446886cb198b47816e, type: 3}
   level3: {fileID: 2701480565596721985, guid: 40c2b390b3624104588698cab47fbd26, type: 3}
@@ -25,7 +25,7 @@ MonoBehaviour:
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
   description: "O Centro de Vila \xE9 o principal edif\xEDcio de Seamoor.  \xC9 neste
     edif\xEDcio que se centram as autoridades que  comandam esta vila. "
-  buildName: Centro
+  buildName: Town Hall
   image: {fileID: 21300000, guid: f45a9349e6d9c0e4ba7c64bff8a4930e, type: 3}
   iconProduction: {fileID: 0}
   isTownHall: 1

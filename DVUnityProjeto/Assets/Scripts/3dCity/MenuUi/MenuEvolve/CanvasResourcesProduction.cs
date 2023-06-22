@@ -20,16 +20,16 @@ public class CanvasResourcesProduction : MonoBehaviour
 
     
      public void isProductionBuilding(LevelBuilds levelBuilds){
-        if(levelBuilds.getBuildName() == "Quinta" ){
+        if(levelBuilds.getBuildName() == "Farm" ){
             resourcesProduction.SetActive(true);
             production.text = ResourcesProductionFoodScript.getProducionByHour().ToString();
             imageResourcesProduction.sprite = levelBuilds.getIconProduction();
-            }else if(   levelBuilds.getBuildName() == "Mina"){
+            }else if(   levelBuilds.getBuildName() == "Mine"){
                 resourcesProduction.SetActive(true);
                 production.text = ResourcesProductionRockScript.getProducionByHour().ToString();
                 imageResourcesProduction.sprite = levelBuilds.getIconProduction();
 
-            }else if( levelBuilds.getBuildName() == "Floresta"){
+            }else if( levelBuilds.getBuildName() == "Sawmill"){
                 resourcesProduction.SetActive(true);
                 production.text = ResourcesProductionWoodScript.getProducionByHour().ToString();
                 imageResourcesProduction.sprite = levelBuilds.getIconProduction();

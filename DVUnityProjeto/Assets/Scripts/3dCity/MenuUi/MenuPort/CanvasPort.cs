@@ -9,7 +9,7 @@ public class CanvasPort : MonoBehaviour
     
     public void isPortBuild(LevelBuilds levelBuilds){
         
-        if(levelBuilds.getBuildName() == "Porto" ){
+        if(levelBuilds.getBuildName() == "Dock" ){
             menuPort.SetActive(true);
             }else{
                 menuPort.SetActive(false);

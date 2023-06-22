@@ -28,7 +28,8 @@ public class CanvasDialog : MonoBehaviour
     
         gameObject.SetActive(true);
         dialogText.text = dialogsManager.GetDialog().dialog;
-        dialogImage.sprite = dialogsManager.GetDialog().sprite;}
+        dialogImage.sprite = dialogsManager.GetDialog().sprite;
+    }
 
     public void NextDialog()
     {

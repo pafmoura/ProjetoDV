@@ -8,7 +8,7 @@ public class CanvasMarket : MonoBehaviour
     
     public void isMarketBuild(LevelBuilds levelBuilds){
         
-        if(levelBuilds.getBuildName() == "Mercado" ){
+        if(levelBuilds.getBuildName() == "Market" ){
             buttonMarket.SetActive(true);
             }else{
                 buttonMarket.SetActive(false);

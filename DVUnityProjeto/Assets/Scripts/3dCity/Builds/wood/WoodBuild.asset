@@ -25,7 +25,7 @@ MonoBehaviour:
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
   description: "\xC9 neste espa\xE7o que se d\xE1 a coleta de madeira, essencial
     na constru\xE7\xE3o e evolu\xE7\xE3o de Seamoor. "
-  buildName: Floresta
+  buildName: Sawmill
   image: {fileID: 21300000, guid: 2492d5495a32e0342931bc58c2c3ec3d, type: 3}
   iconProduction: {fileID: 21300000, guid: 6a9d7033fb6077c4e98c0d78ee2d606e, type: 3}
   isTownHall: 0

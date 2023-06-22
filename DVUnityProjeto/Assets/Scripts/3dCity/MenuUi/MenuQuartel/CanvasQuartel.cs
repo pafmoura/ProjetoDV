@@ -10,7 +10,7 @@ public class CanvasQuartel : MonoBehaviour
 
     public void isQuartel(LevelBuilds levelBuilds){
 
-        if(levelBuilds.getBuildName() == "Quartel" ){
+        if(levelBuilds.getBuildName() == "Barracks" ){
             buttonProduceTroops.SetActive(true);
             }else{
                 buttonProduceTroops.SetActive(false);
