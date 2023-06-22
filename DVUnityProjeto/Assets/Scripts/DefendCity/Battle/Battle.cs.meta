@@ -3,7 +3,15 @@ guid: 9a8173174347256409840dcab3219a70
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - buttonStart: {instanceID: 0}
+  - spawnWarriorScript: {instanceID: 0}
+  - townHall: {instanceID: 0}
+  - canvasWinLose: {instanceID: 0}
+  - imageWinLose: {instanceID: 0}
+  - imageLose: {instanceID: 0}
+  - imageWin: {instanceID: 0}
+  - SaveGameBattle: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
