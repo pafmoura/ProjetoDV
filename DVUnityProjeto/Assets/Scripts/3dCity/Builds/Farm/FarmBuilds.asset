@@ -23,8 +23,8 @@ MonoBehaviour:
   rockLevel3: 100
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
-  description: "\xC9 na quinta que \xE9 produzida a comida que alimenta Seamoor!
-    Este \xE9 um importante recurso, principalmente para a produ\xE7\xE3o de tropas"
+  description: The food that feeds Seamoor is produced on the farm! This is an important
+    resource, especially for troop production
   buildName: Farm
   image: {fileID: 21300000, guid: 501ca7a7717d7fd459d8653465d8c11c, type: 3}
   iconProduction: {fileID: 21300000, guid: 990402083e2d7b144b9c3a3f40df2c4c, type: 3}

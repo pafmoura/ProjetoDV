@@ -23,8 +23,8 @@ MonoBehaviour:
   rockLevel3: 100
   woodLevel3: 100
   resourcesManager: {fileID: 11400000, guid: 13431d76e8ef50a449ec5ce81863629c, type: 2}
-  description: "\xC9 no quartel que s\xE3o formadas as tropas de Seamoor! Evolui
-    este importante centro de treino e conquista todas as batalhas"
+  description: The barracks are where the Seamoor troops are trained! Upgrade this
+    important training centre and conquer every battle
   buildName: Barracks
   image: {fileID: 21300000, guid: fbdd9873847831c4db0ffa1764b52041, type: 3}
   iconProduction: {fileID: 0}
